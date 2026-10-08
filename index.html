@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Спорные территории 1900–2026</title>
+  <meta name="description" content="Интерактивная карта спорных территорий мира с 1900 года: фактический контроль, претензии сторон, позиции ООН и международных судов, источники.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%230072B2'/%3E%3Cpath d='M6 12h20M6 20h20M16 2c-6 7-6 21 0 28M16 2c6 7 6 21 0 28' stroke='%23fff' stroke-width='2' fill='none'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="vendor/maplibre-gl/maplibre-gl.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#search" data-i18n="nav.skip">Перейти к списку стран и споров</a>
+
+  <header class="topbar">
+    <div class="brand">
+      <h1 data-i18n="app.title">Спорные территории 1900–2026</h1>
+      <span class="subtitle" data-i18n="app.subtitle">интерактивная карта</span>
+    </div>
+    <nav class="topnav" aria-label="Main">
+      <a id="link-methodology" href="methodology.html" data-i18n="nav.methodology">Источники и методология</a>
+      <button type="button" id="btn-disclaimer" class="linklike" data-i18n="nav.disclaimer">Дисклеймер</button>
+      <div class="lang" role="group" data-i18n-attr="aria-label:lang.label">
+        <button type="button" data-lang="ru" aria-pressed="true">RU</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="layout">
+    <div class="map-wrap">
+      <div id="map" role="region" data-i18n-attr="aria-label:map.label"></div>
+      <div id="map-error" class="map-error" hidden></div>
+      <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+      <button type="button" id="btn-panel" class="panel-toggle" aria-controls="panel" aria-expanded="false" data-i18n="panel.open">Панель</button>
+    </div>
+
+    <aside id="panel" class="panel" data-i18n-attr="aria-label:panel.label">
+      <button type="button" id="btn-panel-close" class="panel-close" data-i18n-attr="aria-label:panel.close">×</button>
+
+      <section id="card" class="card" hidden aria-live="polite"></section>
+
+      <section class="block" aria-labelledby="h-list">
+        <h2 id="h-list" data-i18n="list.title">Страны и споры</h2>
+        <p id="list-count" class="muted small"></p>
+        <div class="combo">
+          <input id="search" type="search" role="combobox" autocomplete="off" aria-autocomplete="list"
+                 aria-controls="listbox" aria-expanded="true" data-i18n-attr="placeholder:list.search;aria-label:list.search">
+          <ul id="listbox" role="listbox" class="listbox" data-i18n-attr="aria-label:list.title"></ul>
+        </div>
+      </section>
+
+      <section class="block" aria-labelledby="h-legend">
+        <h2 id="h-legend" data-i18n="legend.title">Легенда</h2>
+        <p class="muted small" data-i18n="legend.hint"></p>
+        <ul class="legend" id="legend"></ul>
+      </section>
+
+      <section class="block" aria-labelledby="h-filters">
+        <h2 id="h-filters" data-i18n="filters.title">Фильтры</h2>
+        <fieldset>
+          <legend data-i18n="filters.type">Тип спора</legend>
+          <div id="filter-types" class="checks"></div>
+        </fieldset>
+        <fieldset>
+          <legend data-i18n="filters.status">Статус</legend>
+          <div class="radios">
+            <label><input type="radio" name="status" value="all" checked> <span data-i18n="filters.status.all">Все</span></label>
+            <label><input type="radio" name="status" value="active"> <span data-i18n="filters.status.active">Действующие</span></label>
+            <label><input type="radio" name="status" value="resolved"> <span data-i18n="filters.status.resolved">Урегулированные</span></label>
+          </div>
+        </fieldset>
+        <label class="check"><input type="checkbox" id="filter-lowconf" checked> <span data-i18n="filters.lowconf">Показывать записи с низкой уверенностью</span></label>
+      </section>
+
+      <footer class="panel-footer muted small">
+        <p data-i18n="footer.version"></p>
+        <p data-i18n="footer.data"></p>
+      </footer>
+    </aside>
+  </main>
+
+  <div class="timeline" role="group" data-i18n-attr="aria-label:timeline.label">
+    <p class="timeline-ref"><output id="ref-label" for="year"></output></p>
+    <div class="timeline-controls">
+      <button type="button" id="btn-prev" class="icon-btn" data-i18n-attr="aria-label:timeline.prev;title:timeline.prev">⏮</button>
+      <button type="button" id="btn-play" class="icon-btn" aria-pressed="false" data-i18n-attr="aria-label:timeline.play;title:timeline.play">▶</button>
+      <button type="button" id="btn-next" class="icon-btn" data-i18n-attr="aria-label:timeline.next;title:timeline.next">⏭</button>
+      <label class="visually-hidden" for="year" data-i18n="timeline.label">Год</label>
+      <input id="year" type="range" min="1900" max="2026" step="1" value="2026">
+      <span id="year-num" class="year-num" aria-hidden="true">2026</span>
+    </div>
+  </div>
+
+  <div id="live" class="visually-hidden" aria-live="polite"></div>
+
+  <dialog id="disclaimer" aria-labelledby="disclaimer-title">
+    <h2 id="disclaimer-title" data-i18n="disclaimer.title">Об отображении территорий</h2>
+    <p data-i18n="disclaimer.text"></p>
+    <form method="dialog"><button type="submit" class="primary" data-i18n="disclaimer.ok">Понятно</button></form>
+  </dialog>
+
+  <script src="vendor/maplibre-gl/maplibre-gl.js"></script>
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

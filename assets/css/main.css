@@ -1,0 +1,205 @@
+/* ---------- Токены ---------- */
+:root {
+  --bg: #f6f7f8;
+  --surface: #ffffff;
+  --surface-2: #f0f2f4;
+  --text: #1b1f23;
+  --muted: #5a6470;
+  --border: #d5dae0;
+  --focus: #0b63c4;
+  --ocean: #dfe8ef;
+  --land: #e9e6df;
+  --unit: #f3f1ec;
+  --unit-border: #a9a49a;
+  --neutral: #8a8a8a;
+  --neutral-bg: #d9d6cf;
+  --role-a: #0072B2;
+  --role-b: #E69F00;
+  --role-c: #CC79A7;
+  --role-e: #009E73;
+  --role-r: #56B4E9;
+  --select: #1b1f23;
+  --warn-bg: #fff4d6;
+  --warn-text: #5c4400;
+  --shadow: 0 2px 10px rgba(0, 0, 0, .12);
+  --radius: 8px;
+  --panel-w: 400px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #12161a;
+    --surface: #1a1f24;
+    --surface-2: #232a31;
+    --text: #e8ecef;
+    --muted: #a7b1bb;
+    --border: #36404a;
+    --focus: #6cb6ff;
+    --ocean: #0f1c26;
+    --land: #2a2f33;
+    --unit: #30363c;
+    --unit-border: #6b7480;
+    --neutral: #a3a3a3;
+    --neutral-bg: #4a4d50;
+    --select: #f2f4f6;
+    --warn-bg: #3d3214;
+    --warn-text: #ffe2a3;
+    --shadow: 0 2px 12px rgba(0, 0, 0, .5);
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+a { color: var(--focus); }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.skip-link { position: absolute; left: 8px; top: -60px; z-index: 1000; background: var(--surface); padding: 8px 12px; border-radius: var(--radius); box-shadow: var(--shadow); }
+.skip-link:focus { top: 8px; }
+.muted { color: var(--muted); }
+.small { font-size: 13px; }
+
+/* ---------- Шапка ---------- */
+.topbar {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+  padding: 8px 16px; background: var(--surface); border-bottom: 1px solid var(--border);
+}
+.brand { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.brand h1 { font-size: 18px; margin: 0; letter-spacing: .01em; }
+.subtitle { color: var(--muted); font-size: 13px; }
+.topnav { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; font-size: 14px; }
+.linklike { background: none; border: 0; padding: 0; color: var(--focus); text-decoration: underline; cursor: pointer; font: inherit; }
+.lang { display: inline-flex; border: 1px solid var(--border); border-radius: 999px; overflow: hidden; }
+.lang button { border: 0; background: transparent; color: var(--text); padding: 4px 10px; cursor: pointer; font: inherit; font-size: 13px; }
+.lang button[aria-pressed="true"] { background: var(--text); color: var(--surface); }
+
+/* ---------- Раскладка ---------- */
+.layout { display: grid; grid-template-columns: 1fr var(--panel-w); min-height: 0; }
+.map-wrap { position: relative; min-height: 320px; }
+#map { position: absolute; inset: 0; background: var(--ocean); }
+.map-error { position: absolute; inset: 16px; display: grid; place-items: center; text-align: center; padding: 16px; background: var(--surface); border-radius: var(--radius); }
+
+.panel {
+  background: var(--surface); border-left: 1px solid var(--border);
+  overflow-y: auto; padding: 12px 16px 24px; min-height: 0;
+}
+.panel h2 { font-size: 15px; margin: 0 0 6px; }
+.block { padding: 12px 0; border-top: 1px solid var(--border); }
+.card + .block { border-top: 0; }
+.panel-toggle, .panel-close { display: none; }
+fieldset { border: 0; padding: 0; margin: 8px 0; }
+legend { font-weight: 600; font-size: 13px; margin-bottom: 4px; }
+.checks, .radios { display: grid; gap: 2px; }
+.checks label, .radios label, .check { display: flex; align-items: center; gap: 6px; font-size: 14px; cursor: pointer; }
+.panel-footer { border-top: 1px solid var(--border); margin-top: 8px; padding-top: 8px; }
+.panel-footer p { margin: 4px 0; }
+
+/* ---------- Легенда ---------- */
+.legend { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.legend li { display: grid; grid-template-columns: 28px 1fr; gap: 8px; align-items: center; font-size: 14px; }
+.swatch { width: 28px; height: 18px; border-radius: 3px; border: 1px solid var(--border); background-size: 12px 12px; }
+.swatch.line { height: 0; border: 0; border-top: 3px dashed var(--select); border-radius: 0; }
+.swatch.dot { width: 14px; height: 14px; border-radius: 50%; margin-left: 7px; background: var(--neutral); }
+
+/* ---------- Список (combobox) ---------- */
+.combo input {
+  width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: var(--radius);
+  background: var(--surface-2); color: var(--text); font: inherit;
+}
+.listbox { list-style: none; margin: 6px 0 0; padding: 0; max-height: 280px; overflow-y: auto; border: 1px solid var(--border); border-radius: var(--radius); }
+.listbox .group { padding: 6px 10px 2px; font-size: 12px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.listbox [role="option"] { padding: 6px 10px; cursor: pointer; display: flex; justify-content: space-between; gap: 8px; font-size: 14px; }
+.listbox [role="option"]:hover, .listbox [role="option"][aria-selected="true"] { background: var(--surface-2); }
+.listbox [role="option"][aria-selected="true"] { outline: 2px solid var(--focus); outline-offset: -2px; }
+.listbox .meta { color: var(--muted); font-size: 12px; white-space: nowrap; }
+
+/* ---------- Карточка ---------- */
+.card { padding: 4px 0 12px; }
+.card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+.card h2 { font-size: 18px; margin: 0; }
+.card h3 { font-size: 14px; margin: 14px 0 4px; }
+.card p { margin: 4px 0; }
+.card ul { margin: 4px 0; padding-left: 18px; }
+.card li { margin: 2px 0; }
+.card .close { border: 1px solid var(--border); background: var(--surface-2); color: var(--text); border-radius: 50%; width: 30px; height: 30px; cursor: pointer; font-size: 18px; line-height: 1; flex: none; }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+.badge { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border); }
+.badge.warn { background: var(--warn-bg); color: var(--warn-text); border-color: transparent; }
+.role-chip { display: inline-block; font-size: 12px; padding: 0 6px; border-radius: 4px; color: #111; margin-left: 4px; }
+.role-chip.B { background: var(--role-b); }
+.role-chip.C { background: var(--role-c); }
+.role-chip.D { background: linear-gradient(135deg, var(--role-b) 50%, var(--role-c) 50%); }
+.role-chip.E { background: var(--role-e); color: #fff; }
+.role-chip.R { background: var(--role-r); }
+.sources li { font-size: 13px; }
+.sources .src-meta { color: var(--muted); }
+details.review { margin-top: 10px; background: var(--warn-bg); color: var(--warn-text); border-radius: var(--radius); padding: 6px 10px; }
+details.review summary { cursor: pointer; font-weight: 600; }
+dl.facts { display: grid; grid-template-columns: max-content 1fr; gap: 4px 12px; margin: 8px 0; font-size: 14px; }
+dl.facts dt { color: var(--muted); }
+dl.facts dd { margin: 0; }
+
+/* ---------- Подсказка ---------- */
+.tooltip {
+  position: absolute; z-index: 10; pointer-events: none; max-width: 280px;
+  background: var(--surface); color: var(--text); border: 1px solid var(--border); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 6px 10px; font-size: 13px;
+}
+.tooltip strong { display: block; font-size: 14px; }
+
+/* ---------- Временная шкала ---------- */
+.timeline {
+  display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 12px;
+  padding: 8px 16px; background: var(--surface); border-top: 1px solid var(--border);
+}
+.timeline-ref { margin: 0; font-weight: 600; white-space: nowrap; }
+.timeline-controls { display: flex; align-items: center; gap: 8px; }
+.timeline input[type="range"] { flex: 1; accent-color: var(--role-a); min-width: 120px; }
+.icon-btn { border: 1px solid var(--border); background: var(--surface-2); color: var(--text); border-radius: var(--radius); min-width: 36px; height: 34px; cursor: pointer; font-size: 15px; }
+.icon-btn[aria-pressed="true"] { background: var(--text); color: var(--surface); }
+.year-num { font-variant-numeric: tabular-nums; font-weight: 700; min-width: 3.2em; text-align: right; }
+
+/* ---------- Диалог ---------- */
+dialog { max-width: 560px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); color: var(--text); box-shadow: var(--shadow); padding: 20px; }
+dialog::backdrop { background: rgba(0, 0, 0, .45); }
+dialog h2 { margin-top: 0; font-size: 18px; }
+button.primary { background: var(--role-a); color: #fff; border: 0; border-radius: var(--radius); padding: 8px 16px; font: inherit; cursor: pointer; }
+
+/* MapLibre: атрибуция под тему */
+.maplibregl-ctrl-attrib { background: color-mix(in srgb, var(--surface) 85%, transparent) !important; color: var(--muted); }
+.maplibregl-ctrl-attrib a { color: var(--muted) !important; }
+.maplibregl-ctrl-group { background: var(--surface) !important; }
+@media (prefers-color-scheme: dark) { .maplibregl-ctrl-group button .maplibregl-ctrl-icon { filter: invert(1); } }
+
+/* ---------- Телефон ---------- */
+@media (max-width: 767px) {
+  body { font-size: 15px; }
+  .topbar { padding: 8px 12px; }
+  .brand h1 { font-size: 16px; }
+  .subtitle { display: none; }
+  .layout { grid-template-columns: 1fr; position: relative; }
+  .map-wrap { min-height: 55vh; }
+  .panel {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; max-height: 70vh;
+    border-left: 0; border-top: 1px solid var(--border); border-radius: 14px 14px 0 0; box-shadow: var(--shadow);
+    transform: translateY(105%); transition: transform .25s ease; padding: 12px 16px 96px;
+  }
+  .panel.open { transform: translateY(0); }
+  .panel-toggle { display: block; position: absolute; right: 12px; bottom: 12px; z-index: 5; border: 1px solid var(--border); background: var(--surface); color: var(--text); border-radius: 999px; padding: 8px 16px; box-shadow: var(--shadow); font: inherit; cursor: pointer; }
+  .panel-close { display: block; position: sticky; top: 0; margin-left: auto; border: 1px solid var(--border); background: var(--surface-2); color: var(--text); width: 34px; height: 34px; border-radius: 50%; font-size: 20px; cursor: pointer; z-index: 1; }
+  .timeline { grid-template-columns: 1fr; gap: 4px; padding: 6px 12px; position: relative; z-index: 25; }
+  .tooltip { display: none !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}

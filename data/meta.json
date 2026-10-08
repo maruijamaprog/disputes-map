@@ -1,0 +1,147 @@
+{
+ "built": "2026-10-08",
+ "eras": [
+  {
+   "from": 1900,
+   "to": 1918,
+   "file": "countries.1900-1918.topo.json"
+  },
+  {
+   "from": 1919,
+   "to": 1945,
+   "file": "countries.1919-1945.topo.json"
+  },
+  {
+   "from": 1946,
+   "to": 1991,
+   "file": "countries.1946-1991.topo.json"
+  },
+  {
+   "from": 1992,
+   "to": 2026,
+   "file": "countries.1992-2026.topo.json"
+  }
+ ],
+ "dataset_end": 20191231,
+ "geometry": {
+  "crimea--all": {
+   "source": "Natural Earth 10m disputed areas (B89 Crimea)",
+   "quality": "generalized",
+   "note": null,
+   "km2": 27033
+  },
+  "kashmir--indian": {
+   "source": "Natural Earth 10m disputed areas (B05 Jammu and Kashmir)",
+   "quality": "generalized",
+   "note": null,
+   "km2": 104575
+  },
+  "kashmir--pakistani": {
+   "source": "Natural Earth 10m disputed areas (B09 Azad Kashmir, B08 Gilgit-Baltistan)",
+   "quality": "generalized",
+   "note": null,
+   "km2": 77203
+  },
+  "kashmir--shaksgam": {
+   "source": "Natural Earth 10m disputed areas (B06 Shaksam Valley)",
+   "quality": "generalized",
+   "note": null,
+   "km2": 5316
+  },
+  "kashmir--siachen": {
+   "source": "Natural Earth 10m disputed areas (B45 Siachen Glacier)",
+   "quality": "generalized",
+   "note": null,
+   "km2": 2088
+  },
+  "south-china-sea--paracel": {
+   "source": "Natural Earth 10m disputed areas (B47 Paracel Is.)",
+   "quality": "generalized",
+   "note": null,
+   "km2": 6
+  },
+  "south-china-sea--spratly": {
+   "source": "Natural Earth 10m disputed areas (B46 Spratly Is.)",
+   "quality": "generalized",
+   "note": null,
+   "km2": 13
+  },
+  "south-china-sea--scarborough": {
+   "source": "Natural Earth 10m disputed areas (B70 Scarborough Reef)",
+   "quality": "generalized",
+   "note": null,
+   "km2": 0
+  },
+  "northern-cyprus--north": {
+   "source": "Natural Earth 10m disputed areas (B20 N. Cyprus)",
+   "quality": "generalized",
+   "note": null,
+   "km2": 3319
+  },
+  "northern-cyprus--buffer": {
+   "source": "Natural Earth 10m disputed areas (B43 Cyprus U.N. Buffer Zone)",
+   "quality": "generalized",
+   "note": null,
+   "km2": 341
+  },
+  "western-sahara--west": {
+   "source": "Natural Earth 10m disputed areas (B19, под управлением Марокко)",
+   "quality": "generalized",
+   "note": "Граница между зонами — линия песчаного вала (бермы) по Natural Earth",
+   "km2": 178225
+  },
+  "western-sahara--east": {
+   "source": "Natural Earth 10m disputed areas (B28, под управлением ПОЛИСАРИО)",
+   "quality": "generalized",
+   "note": "Граница между зонами — линия песчаного вала (бермы) по Natural Earth",
+   "km2": 90696
+  },
+  "falklands-malvinas--falklands": {
+   "source": "Natural Earth 10m disputed areas (B12 Falkland Is.)",
+   "quality": "generalized",
+   "note": null,
+   "km2": 11618
+  },
+  "falklands-malvinas--sgssi": {
+   "source": "Natural Earth 10m disputed areas (B32 S. Georgia, B33 S. Sandwich Is.)",
+   "quality": "generalized",
+   "note": null,
+   "km2": 3941
+  },
+  "alsace-lorraine--all": {
+   "source": "Natural Earth 10m admin-1: департаменты Нижний Рейн, Верхний Рейн, Мозель",
+   "quality": "approximate",
+   "note": "Современные департаменты приблизительно соответствуют земле Эльзас-Лотарингия 1871–1918 гг.; точная граница 1871 г. не воспроизводится",
+   "km2": 14116
+  },
+  "danzig--all": {
+   "source": "CShapes 2.0, единица «Danzig» (GW 291)",
+   "quality": "generalized",
+   "note": "В CShapes 2.0 единица действует до 31.08.1938; даты статуса берутся из disputes.json",
+   "km2": 2029
+  },
+  "iraq-kuwait--all": {
+   "source": "CShapes 2.0, единица «Kuwait» (GW 690)",
+   "quality": "generalized",
+   "note": "Показана вся территория Кувейта; линия, демаркированная комиссией ООН в 1993 г., отдельно не отображается",
+   "km2": 16774
+  },
+  "nagorno-karabakh--nkao": {
+   "source": "Natural Earth 10m disputed areas (B38 «Artsakh») + admin-1 Азербайджана: Шушинский, Ходжавендский, Ходжалинский районы, Степанакерт (Ханкенди)",
+   "quality": "approximate",
+   "note": "Открытого слоя границ бывшей НКАО нет; контур собран из нескольких полигонов и приблизителен",
+   "km2": 5938
+  },
+  "nagorno-karabakh--districts": {
+   "source": "Natural Earth 10m admin-1 Азербайджана: Кельбаджарский, Лачинский (в NE ошибочно подписан «Lankaran»), Губадлинский, Зангеланский, Джебраильский, Физулинский, Агдамский районы",
+   "quality": "approximate",
+   "note": "Агдамский и Физулинский районы включены целиком, хотя под контролем армянских сил находились частично",
+   "km2": 9180
+  }
+ },
+ "sources": {
+  "CShapes 2.0": "ETH Zürich, CC BY-NC 4.0 (Schvitz et al. 2022)",
+  "Natural Earth 5.1": "public domain"
+ },
+ "simplify_min_area_deg2": 0.00025
+}
