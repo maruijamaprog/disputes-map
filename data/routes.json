@@ -1,0 +1,3049 @@
+{
+ "meta": {
+  "generated": "2026-11-19",
+  "note_ru": "Схема транспортных коридоров. Линии проведены через узлы, названные в источниках; координаты приблизительные.",
+  "note_en": "Schematic transport corridors. Lines run through nodes named in the sources; coordinates are approximate."
+ },
+ "nodes": {
+  "karavorota": {
+   "ru": "пролив Карские Ворота",
+   "en": "Kara Gates",
+   "lon": 57.95,
+   "lat": 70.42,
+   "iso": null
+  },
+  "dikson": {
+   "ru": "Диксон",
+   "en": "Dikson",
+   "lon": 80.55,
+   "lat": 73.51,
+   "iso": "RUS"
+  },
+  "vilkitsky": {
+   "ru": "пролив Вилькицкого",
+   "en": "Vilkitsky Strait",
+   "lon": 104.5,
+   "lat": 77.9,
+   "iso": null
+  },
+  "tiksi": {
+   "ru": "Тикси",
+   "en": "Tiksi",
+   "lon": 128.87,
+   "lat": 71.64,
+   "iso": "RUS"
+  },
+  "sannikov": {
+   "ru": "пролив Санникова",
+   "en": "Sannikov Strait",
+   "lon": 139.5,
+   "lat": 74.6,
+   "iso": null
+  },
+  "pevek": {
+   "ru": "Певек",
+   "en": "Pevek",
+   "lon": 170.31,
+   "lat": 69.7,
+   "iso": "RUS"
+  },
+  "longstrait": {
+   "ru": "пролив Лонга",
+   "en": "Long Strait",
+   "lon": 178.5,
+   "lat": 70.3,
+   "iso": null
+  },
+  "dezhnev": {
+   "ru": "мыс Дежнёва",
+   "en": "Cape Dezhnev",
+   "lon": -169.65,
+   "lat": 66.08,
+   "iso": "RUS"
+  },
+  "chornomorsk": {
+   "ru": "Черноморск (Ильичёвск)",
+   "en": "Chornomorsk (Illichivsk)",
+   "lon": 30.65,
+   "lat": 46.3,
+   "iso": "UKR"
+  },
+  "constanta": {
+   "ru": "Констанца",
+   "en": "Constanța",
+   "lon": 28.65,
+   "lat": 44.17,
+   "iso": "ROU"
+  },
+  "varna": {
+   "ru": "Варна",
+   "en": "Varna",
+   "lon": 27.92,
+   "lat": 43.21,
+   "iso": "BGR"
+  },
+  "burgas": {
+   "ru": "Бургас",
+   "en": "Burgas",
+   "lon": 27.47,
+   "lat": 42.5,
+   "iso": "BGR"
+  },
+  "batumi": {
+   "ru": "Батуми",
+   "en": "Batumi",
+   "lon": 41.64,
+   "lat": 41.64,
+   "iso": "GEO"
+  },
+  "poti": {
+   "ru": "Поти",
+   "en": "Poti",
+   "lon": 41.67,
+   "lat": 42.15,
+   "iso": "GEO"
+  },
+  "tbilisi": {
+   "ru": "Тбилиси",
+   "en": "Tbilisi",
+   "lon": 44.79,
+   "lat": 41.72,
+   "iso": "GEO"
+  },
+  "kars": {
+   "ru": "Карс",
+   "en": "Kars",
+   "lon": 43.1,
+   "lat": 40.6,
+   "iso": "TUR"
+  },
+  "istanbul": {
+   "ru": "Стамбул",
+   "en": "Istanbul",
+   "lon": 28.98,
+   "lat": 41.01,
+   "iso": "TUR"
+  },
+  "baku": {
+   "ru": "Баку",
+   "en": "Baku",
+   "lon": 49.87,
+   "lat": 40.41,
+   "iso": "AZE"
+  },
+  "alyat": {
+   "ru": "Алят",
+   "en": "Alyat",
+   "lon": 49.41,
+   "lat": 39.95,
+   "iso": "AZE"
+  },
+  "shirvan": {
+   "ru": "Ширван",
+   "en": "Shirvan",
+   "lon": 48.92,
+   "lat": 39.93,
+   "iso": "AZE"
+  },
+  "astara": {
+   "ru": "Астара",
+   "en": "Astara",
+   "lon": 48.87,
+   "lat": 38.45,
+   "iso": "AZE"
+  },
+  "turkmenbashi": {
+   "ru": "Туркменбаши",
+   "en": "Turkmenbashi",
+   "lon": 52.97,
+   "lat": 40.02,
+   "iso": "TKM"
+  },
+  "aktau": {
+   "ru": "Актау",
+   "en": "Aktau",
+   "lon": 51.17,
+   "lat": 43.65,
+   "iso": "KAZ"
+  },
+  "kuryk": {
+   "ru": "Курык",
+   "en": "Kuryk",
+   "lon": 51.65,
+   "lat": 43.17,
+   "iso": "KAZ"
+  },
+  "ashgabat": {
+   "ru": "Ашхабад",
+   "en": "Ashgabat",
+   "lon": 58.38,
+   "lat": 37.95,
+   "iso": "TKM"
+  },
+  "tashkent": {
+   "ru": "Ташкент",
+   "en": "Tashkent",
+   "lon": 69.24,
+   "lat": 41.3,
+   "iso": "UZB"
+  },
+  "dostyk": {
+   "ru": "Достык",
+   "en": "Dostyk",
+   "lon": 82.48,
+   "lat": 45.25,
+   "iso": "KAZ"
+  },
+  "makat": {
+   "ru": "Макат",
+   "en": "Makat",
+   "lon": 53.32,
+   "lat": 47.65,
+   "iso": "KAZ"
+  },
+  "beyneu": {
+   "ru": "Бейнеу",
+   "en": "Beyneu",
+   "lon": 55.2,
+   "lat": 45.32,
+   "iso": "KAZ"
+  },
+  "bolashak": {
+   "ru": "Болашак",
+   "en": "Bolashak",
+   "lon": 54.05,
+   "lat": 42.58,
+   "iso": "KAZ"
+  },
+  "bereket": {
+   "ru": "Берекет",
+   "en": "Bereket",
+   "lon": 55.52,
+   "lat": 39.24,
+   "iso": "TKM"
+  },
+  "saratov": {
+   "ru": "Саратов",
+   "en": "Saratov",
+   "lon": 46.03,
+   "lat": 51.53,
+   "iso": "RUS"
+  },
+  "astrakhan": {
+   "ru": "Астрахань",
+   "en": "Astrakhan",
+   "lon": 48.04,
+   "lat": 46.35,
+   "iso": "RUS"
+  },
+  "olya": {
+   "ru": "Оля",
+   "en": "Olya",
+   "lon": 47.55,
+   "lat": 45.78,
+   "iso": "RUS"
+  },
+  "makhachkala": {
+   "ru": "Махачкала",
+   "en": "Makhachkala",
+   "lon": 47.5,
+   "lat": 42.98,
+   "iso": "RUS"
+  },
+  "derbent": {
+   "ru": "Дербент",
+   "en": "Derbent",
+   "lon": 48.29,
+   "lat": 42.06,
+   "iso": "RUS"
+  },
+  "samur": {
+   "ru": "Самур (граница России и Азербайджана)",
+   "en": "Samur (Russia–Azerbaijan border)",
+   "lon": 48.47,
+   "lat": 41.86,
+   "iso": "AZE"
+  },
+  "rasht": {
+   "ru": "Решт",
+   "en": "Rasht",
+   "lon": 49.58,
+   "lat": 37.28,
+   "iso": "IRN"
+  },
+  "anzali": {
+   "ru": "Энзели",
+   "en": "Anzali",
+   "lon": 49.46,
+   "lat": 37.47,
+   "iso": "IRN"
+  },
+  "qazvin": {
+   "ru": "Казвин",
+   "en": "Qazvin",
+   "lon": 50.0,
+   "lat": 36.27,
+   "iso": "IRN"
+  },
+  "tehran": {
+   "ru": "Тегеран",
+   "en": "Tehran",
+   "lon": 51.39,
+   "lat": 35.69,
+   "iso": "IRN"
+  },
+  "inchehborun": {
+   "ru": "Инче-Бурун",
+   "en": "Incheh Borun",
+   "lon": 54.72,
+   "lat": 37.45,
+   "iso": "IRN"
+  },
+  "garmsar": {
+   "ru": "Гермсар",
+   "en": "Garmsar",
+   "lon": 52.34,
+   "lat": 35.22,
+   "iso": "IRN"
+  },
+  "bafq": {
+   "ru": "Бафк",
+   "en": "Bafq",
+   "lon": 55.4,
+   "lat": 31.6,
+   "iso": "IRN"
+  },
+  "bandarabbas": {
+   "ru": "Бендер-Аббас",
+   "en": "Bandar Abbas",
+   "lon": 56.27,
+   "lat": 27.18,
+   "iso": "IRN"
+  },
+  "nhavasheva": {
+   "ru": "Нава-Шева (Мумбаи)",
+   "en": "Nhava Sheva (Mumbai)",
+   "lon": 72.95,
+   "lat": 18.95,
+   "iso": "IND"
+  },
+  "mundra": {
+   "ru": "Мундра",
+   "en": "Mundra",
+   "lon": 69.72,
+   "lat": 22.84,
+   "iso": "IND"
+  },
+  "kandla": {
+   "ru": "Кандла",
+   "en": "Kandla",
+   "lon": 70.22,
+   "lat": 23.03,
+   "iso": "IND"
+  },
+  "jebelali": {
+   "ru": "Джебель-Али",
+   "en": "Jebel Ali",
+   "lon": 55.06,
+   "lat": 25.01,
+   "iso": "ARE"
+  },
+  "fujairah": {
+   "ru": "Эль-Фуджайра",
+   "en": "Fujairah",
+   "lon": 56.33,
+   "lat": 25.12,
+   "iso": "ARE"
+  },
+  "ghuwaifat": {
+   "ru": "Эль-Гувайфат",
+   "en": "Al-Ghuwaifat",
+   "lon": 51.62,
+   "lat": 24.12,
+   "iso": "ARE"
+  },
+  "haradh": {
+   "ru": "Харад",
+   "en": "Haradh",
+   "lon": 49.07,
+   "lat": 24.15,
+   "iso": "SAU"
+  },
+  "hadithah": {
+   "ru": "Эль-Хадиса",
+   "en": "Al-Hadithah",
+   "lon": 37.14,
+   "lat": 31.46,
+   "iso": "SAU"
+  },
+  "mafraq": {
+   "ru": "Мафрак",
+   "en": "Mafraq",
+   "lon": 36.21,
+   "lat": 32.34,
+   "iso": "JOR"
+  },
+  "beitshean": {
+   "ru": "Бейт-Шеан",
+   "en": "Beit She'an",
+   "lon": 35.5,
+   "lat": 32.5,
+   "iso": "ISR"
+  },
+  "haifa": {
+   "ru": "Хайфа",
+   "en": "Haifa",
+   "lon": 34.99,
+   "lat": 32.82,
+   "iso": "ISR"
+  },
+  "piraeus": {
+   "ru": "Пирей",
+   "en": "Piraeus",
+   "lon": 23.65,
+   "lat": 37.94,
+   "iso": "GRC"
+  },
+  "trieste": {
+   "ru": "Триест",
+   "en": "Trieste",
+   "lon": 13.78,
+   "lat": 45.65,
+   "iso": "ITA"
+  },
+  "marseille": {
+   "ru": "Марсель",
+   "en": "Marseille",
+   "lon": 5.37,
+   "lat": 43.3,
+   "iso": "FRA"
+  },
+  "aze_border_e": {
+   "ru": "граница Армении и Азербайджана (восток)",
+   "en": "Armenia–Azerbaijan border (east)",
+   "lon": 46.53,
+   "lat": 38.86,
+   "iso": "ARM"
+  },
+  "meghri": {
+   "ru": "Мегри",
+   "en": "Meghri",
+   "lon": 46.24,
+   "lat": 38.9,
+   "iso": "ARM"
+  },
+  "nakh_border_w": {
+   "ru": "граница Армении и Нахичевани (запад)",
+   "en": "Armenia–Nakhchivan border (west)",
+   "lon": 46.1,
+   "lat": 38.92,
+   "iso": "ARM"
+  },
+  "julfa": {
+   "ru": "Джульфа",
+   "en": "Julfa",
+   "lon": 45.63,
+   "lat": 38.96,
+   "iso": "AZE"
+  },
+  "nakhchivan": {
+   "ru": "Нахичевань",
+   "en": "Nakhchivan",
+   "lon": 45.41,
+   "lat": 39.21,
+   "iso": "AZE"
+  }
+ },
+ "waypoints": {
+  "w_yamal": {
+   "lon": 70.0,
+   "lat": 74.0
+  },
+  "w_kara": {
+   "lon": 86.0,
+   "lat": 76.0
+  },
+  "w_taymyr": {
+   "lon": 97.0,
+   "lat": 77.6
+  },
+  "w_laptev": {
+   "lon": 118.0,
+   "lat": 76.2
+  },
+  "w_lena": {
+   "lon": 128.0,
+   "lat": 75.2
+  },
+  "w_tiksi": {
+   "lon": 131.0,
+   "lat": 72.6
+  },
+  "w_eastsib": {
+   "lon": 156.0,
+   "lat": 72.6
+  },
+  "w_ayon": {
+   "lon": 171.0,
+   "lat": 70.3
+  },
+  "w_odesa": {
+   "lon": 30.9,
+   "lat": 45.8
+  },
+  "w_danube": {
+   "lon": 29.9,
+   "lat": 44.9
+  },
+  "w_baku_s": {
+   "lon": 49.95,
+   "lat": 40.25
+  },
+  "w_sinop": {
+   "lon": 35.1,
+   "lat": 42.4
+  },
+  "w_kutch": {
+   "lon": 68.6,
+   "lat": 22.5
+  },
+  "w_musandam": {
+   "lon": 56.2,
+   "lat": 26.6
+  },
+  "w_gulf": {
+   "lon": 55.6,
+   "lat": 25.9
+  },
+  "w_istria": {
+   "lon": 13.3,
+   "lat": 45.4
+  },
+  "w_absheron_n": {
+   "lon": 50.5,
+   "lat": 41.0
+  },
+  "w_absheron_e": {
+   "lon": 50.6,
+   "lat": 40.3
+  },
+  "w_casp_s": {
+   "lon": 50.0,
+   "lat": 38.6
+  },
+  "w_oman": {
+   "lon": 58.5,
+   "lat": 24.6
+  },
+  "w_arab": {
+   "lon": 62.5,
+   "lat": 22.8
+  },
+  "w_hormuz": {
+   "lon": 56.6,
+   "lat": 26.5
+  },
+  "w_rhodes": {
+   "lon": 28.6,
+   "lat": 35.5
+  },
+  "w_crete_s": {
+   "lon": 24.0,
+   "lat": 34.6
+  },
+  "w_cyclades": {
+   "lon": 24.6,
+   "lat": 36.9
+  },
+  "w_ionian": {
+   "lon": 19.5,
+   "lat": 37.6
+  },
+  "w_otranto": {
+   "lon": 19.0,
+   "lat": 40.3
+  },
+  "w_adriatic": {
+   "lon": 16.3,
+   "lat": 42.6
+  },
+  "w_adriatic_n": {
+   "lon": 13.2,
+   "lat": 44.7
+  },
+  "w_sicily": {
+   "lon": 12.0,
+   "lat": 37.0
+  },
+  "w_sardinia": {
+   "lon": 8.6,
+   "lat": 38.6
+  },
+  "w_lion": {
+   "lon": 6.0,
+   "lat": 42.4
+  }
+ },
+ "routes": [
+  {
+   "id": "nsr",
+   "name": {
+    "ru": "Северный морской путь (СМП)",
+    "en": "Northern Sea Route (NSR)"
+   },
+   "alt_names": [],
+   "kind": "maritime",
+   "color": "#0b7a75",
+   "parties": [
+    "RUS"
+   ],
+   "appear": "1932",
+   "operate": "1932",
+   "summary": {
+    "ru": "Морской путь вдоль арктического побережья России — кратчайший между западной частью Евразии и Азиатско-Тихоокеанским регионом. По закону 2012 г. его акватория простирается от проливов Новой Земли и меридиана мыса Желания до параллели мыса Дежнёва в Беринговом проливе. Впервые за одну навигацию путь пройден в 1932 г. Основной груз — вывоз сырья из арктических портов; транзит составляет небольшую долю.",
+    "en": "A sea route along Russia's Arctic coast, the shortest between western Eurasia and the Asia-Pacific. Under the 2012 law its water area runs from the Novaya Zemlya straits and the meridian of Cape Zhelaniya to the parallel of Cape Dezhnev in the Bering Strait. It was first traversed in a single season in 1932. Most cargo is raw materials shipped from Arctic ports; transit is a small share."
+   },
+   "status": {
+    "ru": "Действует; навигация зависит от ледовой обстановки и ледокольного сопровождения.",
+    "en": "Operating; navigation depends on ice conditions and icebreaker escort."
+   },
+   "branches": [
+    {
+     "id": "main",
+     "name": {
+      "ru": "Акватория СМП (схема)",
+      "en": "NSR water area (schematic)"
+     },
+     "segments": [
+      {
+       "nodes": [
+        "karavorota",
+        "w_yamal",
+        "dikson",
+        "w_kara",
+        "w_taymyr",
+        "vilkitsky",
+        "w_laptev",
+        "w_lena",
+        "w_tiksi",
+        "tiksi",
+        "w_tiksi",
+        "sannikov",
+        "w_eastsib",
+        "pevek",
+        "w_ayon",
+        "longstrait",
+        "dezhnev"
+       ],
+       "mode": "sea",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      }
+     ],
+     "note": {
+      "ru": "Линия проведена через проливы и порты акватории; фактические трассы зависят от ледовой обстановки.",
+      "en": "The line runs through the straits and ports of the water area; actual tracks depend on ice conditions."
+     }
+    }
+   ],
+   "capacity": [
+    {
+     "kind": "target",
+     "text": {
+      "ru": "Плановый показатель: 80 млн т в 2024 г. (указ 2018 г.); фактически перевезено менее половины.",
+      "en": "Target: 80 million tonnes in 2024 (2018 decree); less than half was actually carried."
+     },
+     "source_ids": [
+      "moscowtimes-2025",
+      "euromaidan-2026"
+     ]
+    },
+    {
+     "kind": "target",
+     "text": {
+      "ru": "Прогноз правительства России — до 100 млн т в год к 2030 г.",
+      "en": "Russian government forecast: up to 100 million tonnes a year by 2030."
+     },
+     "source_ids": [
+      "gcaptain-2026"
+     ]
+    },
+    {
+     "kind": "target",
+     "text": {
+      "ru": "Стратегия развития Арктической зоны (2020): 130 млн т к 2035 г.",
+      "en": "Arctic Zone strategy (2020): 130 million tonnes by 2035."
+     },
+     "source_ids": [
+      "moscowtimes-2025"
+     ]
+    }
+   ],
+   "volumes": [
+    {
+     "id": "total",
+     "label": {
+      "ru": "Все перевозки по акватории СМП",
+      "en": "All shipments in the NSR water area"
+     },
+     "unit": {
+      "ru": "млн т",
+      "en": "million t"
+     },
+     "points": [
+      {
+       "year": 1987,
+       "value": 6.58,
+       "source_ids": [
+        "euromaidan-2026"
+       ]
+      },
+      {
+       "year": 2022,
+       "value": 34.0,
+       "source_ids": [
+        "interfax-2024-nsr"
+       ]
+      },
+      {
+       "year": 2023,
+       "value": 36.254,
+       "source_ids": [
+        "interfax-2024-nsr",
+        "arcticportal-2024"
+       ]
+      },
+      {
+       "year": 2024,
+       "value": 37.9,
+       "source_ids": [
+        "moscowtimes-2025",
+        "erai-2025-nsr"
+       ]
+      },
+      {
+       "year": 2025,
+       "value": 37.02,
+       "source_ids": [
+        "gcaptain-2026",
+        "atommedia-2026"
+       ]
+      }
+     ],
+     "note": {
+      "ru": "Данные Росатома. 1987 г. — советский максимум.",
+      "en": "Rosatom data. 1987 is the Soviet-era peak."
+     }
+    },
+    {
+     "id": "transit",
+     "label": {
+      "ru": "Транзит (между портами вне России)",
+      "en": "Transit (between non-Russian ports)"
+     },
+     "unit": {
+      "ru": "млн т",
+      "en": "million t"
+     },
+     "points": [
+      {
+       "year": 2023,
+       "value": 2.129,
+       "source_ids": [
+        "interfax-2024-nsr",
+        "erai-2025-nsr"
+       ]
+      },
+      {
+       "year": 2024,
+       "value": 3.0,
+       "source_ids": [
+        "wnn-2025",
+        "erai-2025-nsr"
+       ]
+      },
+      {
+       "year": 2025,
+       "value": 3.2,
+       "source_ids": [
+        "chnl-2025",
+        "atommedia-2026"
+       ]
+      }
+     ],
+     "note": null
+    }
+   ],
+   "history": [
+    {
+     "date": "1932",
+     "kind": "event",
+     "text": {
+      "ru": "Ледокольный пароход «А. Сибиряков» впервые проходит путь за одну навигацию.",
+      "en": "The icebreaking steamer Sibiryakov first completes the route in a single season."
+     },
+     "source_ids": [
+      "arctic-russia-2020",
+      "barr-1978"
+     ]
+    },
+    {
+     "date": "1987",
+     "kind": "event",
+     "text": {
+      "ru": "Советский максимум перевозок — 6,58 млн т.",
+      "en": "Soviet-era peak of shipments: 6.58 million tonnes."
+     },
+     "source_ids": [
+      "euromaidan-2026"
+     ]
+    },
+    {
+     "date": "2012-07-28",
+     "kind": "legal",
+     "text": {
+      "ru": "Федеральный закон № 132-ФЗ определяет акваторию СМП и правила плавания.",
+      "en": "Federal Law No. 132-FZ defines the NSR water area and navigation rules."
+     },
+     "source_ids": [
+      "rulaws-132fz",
+      "solski-2013"
+     ]
+    },
+    {
+     "date": "2024",
+     "kind": "event",
+     "text": {
+      "ru": "Перевезено 37,9 млн т — меньше половины цели в 80 млн т.",
+      "en": "37.9 million tonnes carried — less than half of the 80-million-tonne target."
+     },
+     "source_ids": [
+      "moscowtimes-2025",
+      "euromaidan-2026"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "rulaws-132fz",
+     "title": "Федеральный закон от 28.07.2012 № 132-ФЗ (ст. 5.1 Кодекса торгового мореплавания: акватория Северного морского пути)",
+     "author": "Российская Федерация (текст на rulaws.ru)",
+     "year": 2012,
+     "type": "официальный документ стороны",
+     "url": "https://rulaws.ru/laws/Federalnyy-zakon-ot-28.07.2012-N-132-FZ/",
+     "doi": null,
+     "page_or_article": "ст. 3, п. 3 (ст. 5.1 КТМ)",
+     "perspective": "RUS",
+     "supports": [
+      "route",
+      "history"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": null
+    },
+    {
+     "id": "solski-2013",
+     "title": "New Developments in Russian Regulation of Navigation on the Northern Sea Route",
+     "author": "Jan Jakub Solski (Arctic Review on Law and Politics)",
+     "year": 2013,
+     "type": "академическая работа",
+     "url": "https://arcticreview.no/index.php/arctic/article/view/41",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "history"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": null
+    },
+    {
+     "id": "arctic-russia-2020",
+     "title": "History of the Northeast Passage: from idea to first success",
+     "author": "Инвестиционный портал Арктической зоны РФ",
+     "year": 2020,
+     "type": "справочное издание",
+     "url": "https://arctic-russia.ru/article/history-of-the-northeast-passage-from-idea-to-first-success-/",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "appear",
+      "operate",
+      "history"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "7 февраля 2020 г."
+    },
+    {
+     "id": "barr-1978",
+     "title": "The Voyage of Sibiryakov, 1932",
+     "author": "William Barr (Polar Record, vol. 19, no. 120)",
+     "year": 1978,
+     "type": "академическая работа",
+     "url": "https://www.cambridge.org/core/journals/polar-record/article/abs/voyage-of-sibiryakov-1932/D1C9D2625476726FE42F3414B1D4F3E8",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "appear",
+      "operate",
+      "history"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "Прочитана аннотация: до лета 1932 г. ни одно судно не прошло путь за одну навигацию"
+    },
+    {
+     "id": "atommedia-2026",
+     "title": "Northern Sea Route. Background information",
+     "author": "Атом Медиа (цифровая пресс-служба Росатома)",
+     "year": 2026,
+     "type": "официальный документ стороны",
+     "url": "https://atommedia.online/en/reference/severnyy-morskoy-put-spravochnaya-informatsiya-/",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "RUS",
+     "supports": [
+      "route",
+      "volumes"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "30 марта 2026 г."
+    },
+    {
+     "id": "gcaptain-2026",
+     "title": "Northern Sea Route Traffic Slips in 2025 as Sanctions Constrain Russia's Arctic Ambitions",
+     "author": "Malte Humpert (gCaptain)",
+     "year": 2026,
+     "type": "публикация СМИ",
+     "url": "https://gcaptain.com/northern-sea-route-traffic-slips-in-2025-as-sanctions-constrain-russias-arctic-ambitions/",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "volumes",
+      "capacity"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "11 февраля 2026 г."
+    },
+    {
+     "id": "euromaidan-2026",
+     "title": "37 million tons instead of 80 million—Russia's Arctic shipping dream hits reverse",
+     "author": "Peeter Helme (Euromaidan Press)",
+     "year": 2026,
+     "type": "публикация СМИ",
+     "url": "https://euromaidanpress.com/2026/02/10/russia-arctic-shipping-route-decline/",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "volumes",
+      "capacity"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "10 февраля 2026 г."
+    },
+    {
+     "id": "moscowtimes-2025",
+     "title": "Northern Sea Route Shipping Falls Short of Russia's 2024 Target",
+     "author": "The Moscow Times",
+     "year": 2025,
+     "type": "публикация СМИ",
+     "url": "https://www.themoscowtimes.com/2025/01/10/northern-sea-route-shipping-falls-short-of-russias-2024-target-a87558",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "volumes",
+      "capacity"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "10 января 2025 г.; цифры Росатома"
+    },
+    {
+     "id": "wnn-2025",
+     "title": "Northern Sea Route cargo set new record in 2024",
+     "author": "World Nuclear News",
+     "year": 2025,
+     "type": "публикация СМИ",
+     "url": "https://wnn.world-nuclear.org/articles/northern-sea-route-cargo-set-new-record-in-2024",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "volumes"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "10 января 2025 г.; цифры Росатома"
+    },
+    {
+     "id": "erai-2025-nsr",
+     "title": "The Northern Sea Route as a key Russian transport corridor",
+     "author": "ERAI (index1520.com)",
+     "year": 2025,
+     "type": "справочное издание",
+     "url": "https://index1520.com/en/analytics/severnyy-morskoy-put-kak-klyuchevoy-transportnyy-koridor-rossii-strategicheskoe-znachenie-i-perspekt/",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "volumes"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "31 марта 2025 г."
+    },
+    {
+     "id": "interfax-2024-nsr",
+     "title": "Cargo traffic on Russia's Northern Sea Route topped 36 mln tonnes in 2023 — Rosatom",
+     "author": "Interfax",
+     "year": 2024,
+     "type": "публикация СМИ",
+     "url": "https://interfax.com/newsroom/top-stories/98266/",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "volumes"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "10 января 2024 г."
+    },
+    {
+     "id": "arcticportal-2024",
+     "title": "In 2023, cargo transportation along the North Sea Route totalled 36.254 mn tons",
+     "author": "Инвестиционный портал Арктической зоны РФ (по данным Росатома)",
+     "year": 2024,
+     "type": "официальный документ стороны",
+     "url": "https://arctic-russia.ru/en/news/in-2023-cargo-transportation-along-the-north-sea-route-totalled-36-254-mn-tons/",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "RUS",
+     "supports": [
+      "volumes"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "16 января 2024 г."
+    },
+    {
+     "id": "chnl-2025",
+     "title": "Main results of NSR transit navigation in 2025",
+     "author": "Centre for High North Logistics (CHNL, Nord University)",
+     "year": 2025,
+     "type": "датасет",
+     "url": "https://chnl.no/news/main-results-of-nsr-transit-navigation-in-2025/",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "volumes"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "9 декабря 2025 г."
+    }
+   ],
+   "confidence": "medium",
+   "needs_human_review": true,
+   "review": {
+    "status": "draft",
+    "last_checked": "2026-11-19",
+    "conflicts": [
+     "Объём 2024 г.: 37,9 млн т (The Moscow Times, ERAI) или «почти 37,8 млн т» (World Nuclear News); все — по данным Росатома",
+     "2025 г.: Росатом называет 37,02 млн т рекордом, gCaptain и Euromaidan Press — снижением на 2,3% к 2024 г.",
+     "Цель на 2035 г.: 130 млн т (Стратегия 2020 г., по The Moscow Times) или 270 млн т (обещание Росатома, по Euromaidan Press)"
+    ],
+    "notes": [
+     "Объём 2022 г. и советский максимум 1987 г. — по одному источнику",
+     "Создание Главсевморпути в 1932 г. подтверждено только фрагментом обзора CRREL без выходных данных и в карточку не включено",
+     "Линия — схема по проливам и портам; координаты узлов приблизительные"
+    ]
+   }
+  },
+  {
+   "id": "traceca",
+   "name": {
+    "ru": "TRACECA (транспортный коридор Европа – Кавказ – Азия)",
+    "en": "TRACECA (Transport Corridor Europe–Caucasus–Asia)"
+   },
+   "alt_names": [],
+   "kind": "multimodal",
+   "color": "#7b3fa0",
+   "parties": [
+    "ARM",
+    "AZE",
+    "BGR",
+    "GEO",
+    "IRN",
+    "KAZ",
+    "KGZ",
+    "MDA",
+    "ROU",
+    "TJK",
+    "TUR",
+    "TKM",
+    "UKR",
+    "UZB"
+   ],
+   "appear": "1993-05",
+   "operate": "1998-09-08",
+   "summary": {
+    "ru": "Программа и межправительственное соглашение о развитии транспорта из Европы через Чёрное море, Кавказ и Каспийское море в Центральную Азию. Запущена в 1993 г. на конференции в Брюсселе при поддержке ЕС; основное многостороннее соглашение подписано в Баку в 1998 г. Коридор опирается на существующие порты, железные и автомобильные дороги стран-участниц.",
+    "en": "A programme and intergovernmental agreement for transport from Europe across the Black Sea, the Caucasus and the Caspian Sea to Central Asia. Launched in 1993 at a conference in Brussels with EU support; the Basic Multilateral Agreement was signed in Baku in 1998. The corridor relies on existing ports, railways and roads of the member states."
+   },
+   "status": {
+    "ru": "Действует как межправительственная программа; 14 стран-участниц, Постоянный секретариат в Баку с 2001 г.",
+    "en": "Operating as an intergovernmental programme; 14 member states, Permanent Secretariat in Baku since 2001."
+   },
+   "branches": [
+    {
+     "id": "blacksea",
+     "name": {
+      "ru": "Черноморские паромы",
+      "en": "Black Sea ferries"
+     },
+     "segments": [
+      {
+       "nodes": [
+        "chornomorsk",
+        "w_odesa",
+        "w_danube",
+        "constanta"
+       ],
+       "mode": "sea",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      },
+      {
+       "nodes": [
+        "constanta",
+        "batumi"
+       ],
+       "mode": "sea",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      }
+     ],
+     "note": {
+      "ru": "Паромная линия Черноморск (Ильичёвск) – Констанца – Батуми открыта в октябре 2014 г.",
+      "en": "The Chornomorsk (Illichivsk) – Constanța – Batumi ferry line opened in October 2014."
+     }
+    },
+    {
+     "id": "caucasus",
+     "name": {
+      "ru": "Кавказ – Каспий – Центральная Азия (схема)",
+      "en": "Caucasus – Caspian – Central Asia (schematic)"
+     },
+     "segments": [
+      {
+       "nodes": [
+        "batumi",
+        "tbilisi",
+        "baku"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      },
+      {
+       "nodes": [
+        "baku",
+        "w_baku_s",
+        "turkmenbashi"
+       ],
+       "mode": "sea",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      },
+      {
+       "nodes": [
+        "turkmenbashi",
+        "ashgabat",
+        "tashkent"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      }
+     ],
+     "note": {
+      "ru": "Точные маршруты TRACECA в прочитанных источниках не приведены; линия проведена через порты и столицы стран-участниц.",
+      "en": "The sources read do not give exact TRACECA routes; the line runs through ports and capitals of member states."
+     }
+    }
+   ],
+   "capacity": [],
+   "volumes": [],
+   "history": [
+    {
+     "date": "1993-05",
+     "kind": "legal",
+     "text": {
+      "ru": "Конференция в Брюсселе: министры восьми стран Кавказа и Центральной Азии и ЕС запускают TRACECA.",
+      "en": "Brussels conference: ministers of eight Caucasus and Central Asian states and the EU launch TRACECA."
+     },
+     "source_ids": [
+      "traceca-history",
+      "rferl-1998",
+      "mfa-am-traceca"
+     ]
+    },
+    {
+     "date": "1998-09-08",
+     "kind": "legal",
+     "text": {
+      "ru": "В Баку подписано Основное многостороннее соглашение о международном транспорте по коридору.",
+      "en": "The Basic Multilateral Agreement on international transport along the corridor is signed in Baku."
+     },
+     "source_ids": [
+      "traceca-history",
+      "rferl-1998"
+     ]
+    },
+    {
+     "date": "2001-02-21",
+     "kind": "event",
+     "text": {
+      "ru": "Открыт Постоянный секретариат в Баку.",
+      "en": "The Permanent Secretariat opens in Baku."
+     },
+     "source_ids": [
+      "traceca-history"
+     ]
+    },
+    {
+     "date": "2014-10-16",
+     "kind": "event",
+     "text": {
+      "ru": "Открыта паромная линия Ильичёвск – Констанца – Батуми.",
+      "en": "The Illichivsk – Constanța – Batumi ferry line opens."
+     },
+     "source_ids": [
+      "traceca-ferry-2014"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "traceca-history",
+     "title": "TRACECA History",
+     "author": "Межправительственная комиссия TRACECA (Постоянный секретариат)",
+     "year": null,
+     "type": "официальный документ стороны",
+     "url": "https://traceca-org.org/en/about-traceca/history-of-traceca",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "international",
+     "supports": [
+      "appear",
+      "operate",
+      "parties",
+      "route",
+      "history"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": null
+    },
+    {
+     "id": "rferl-1998",
+     "title": "Central Asia/Caucasus: Silk Road Conference Agrees On Eurasian Corridor",
+     "author": "RFE/RL",
+     "year": 1998,
+     "type": "публикация СМИ",
+     "url": "https://www.rferl.org/amp/1089437.html",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "appear",
+      "operate",
+      "history"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "9 сентября 1998 г."
+    },
+    {
+     "id": "mfa-am-traceca",
+     "title": "International organisations: TRACECA",
+     "author": "МИД Армении",
+     "year": null,
+     "type": "официальный документ стороны",
+     "url": "https://mfa.am/en/international-organisations/9",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "ARM",
+     "supports": [
+      "appear",
+      "parties",
+      "history"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": null
+    },
+    {
+     "id": "traceca-ferry-2014",
+     "title": "Ferry line Constanta – Batumi – Ilychevsk as the important transport nodal point in the TRACECA region",
+     "author": "Межправительственная комиссия TRACECA (Постоянный секретариат)",
+     "year": 2014,
+     "type": "официальный документ стороны",
+     "url": "https://traceca-org.org/en/news/single-news/n/ferry_line_constanta_batumi_ilychevsk_as_the_important_transport_nodal_point_in_the_traceca_region",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "international",
+     "supports": [
+      "route",
+      "history"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "22 октября 2014 г."
+    }
+   ],
+   "confidence": "low",
+   "needs_human_review": true,
+   "review": {
+    "status": "draft",
+    "last_checked": "2026-11-19",
+    "conflicts": [
+     "Число участников: 14 (сайт TRACECA) или 13 (МИД Армении, где перечислены 12 стран, включая Монголию)",
+     "Дата подписания соглашения Арменией: 9 августа 1998 г. (МИД Армении) — при общей дате подписания 8 сентября 1998 г."
+    ],
+    "notes": [
+     "Сводной статистики перевозок по коридору и данных о пропускной способности в открытых источниках не найдено",
+     "Сплошная линия показана с даты подписания соглашения (1998 г.): коридор опирается на уже действовавшие пути — допущение редакции",
+     "Вступление соглашения в силу 23.05.1999 — по одному источнику (МИД Армении)",
+     "Линия «Кавказ – Каспий – Центральная Азия» — схема, а не официальный маршрут"
+    ]
+   }
+  },
+  {
+   "id": "instc",
+   "name": {
+    "ru": "Международный транспортный коридор «Север – Юг»",
+    "en": "International North–South Transport Corridor (INSTC)"
+   },
+   "alt_names": [],
+   "kind": "multimodal",
+   "color": "#2e7d32",
+   "parties": [
+    "RUS",
+    "IRN",
+    "IND",
+    "AZE"
+   ],
+   "appear": "2000-09-12",
+   "operate": null,
+   "summary": {
+    "ru": "Коридор из России к Персидскому заливу и в Индию. Соглашение подписали Россия, Иран и Индия 12 сентября 2000 г. в Санкт-Петербурге; позже присоединились другие страны, в том числе Азербайджан (2005). Три ветви: западная — по железной дороге через Азербайджан; транскаспийская — морем через Каспий; восточная — через Казахстан и Туркменистан. Ключевой недостающий участок — железная дорога Решт – Астара в Иране.",
+    "en": "A corridor from Russia to the Persian Gulf and India. Russia, Iran and India signed the agreement on 12 September 2000 in St Petersburg; other states joined later, including Azerbaijan (2005). Three branches: the western one by rail through Azerbaijan; the trans-Caspian one by sea across the Caspian; the eastern one through Kazakhstan and Turkmenistan. The key missing link is the Rasht–Astara railway in Iran."
+   },
+   "status": {
+    "ru": "Действует частично: восточная и транскаспийская ветви работают; на западной не построен участок Решт – Астара (около 162 км), грузы перегружают на автотранспорт.",
+    "en": "Partly operating: the eastern and trans-Caspian branches work; on the western branch the Rasht–Astara section (about 162 km) is not built and cargo is transferred to road."
+   },
+   "branches": [
+    {
+     "id": "trunk",
+     "name": {
+      "ru": "Поволжье",
+      "en": "Volga trunk"
+     },
+     "segments": [
+      {
+       "nodes": [
+        "saratov",
+        "astrakhan"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": "2014-12-03",
+       "planned": false,
+       "note": null
+      }
+     ],
+     "note": null
+    },
+    {
+     "id": "west",
+     "name": {
+      "ru": "Западная ветвь (через Азербайджан)",
+      "en": "Western branch (via Azerbaijan)"
+     },
+     "segments": [
+      {
+       "nodes": [
+        "astrakhan",
+        "makhachkala",
+        "derbent",
+        "samur",
+        "shirvan",
+        "astara"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": "2017-12",
+       "planned": false,
+       "note": null
+      },
+      {
+       "nodes": [
+        "astara",
+        "rasht"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": null,
+       "planned": true,
+       "note": {
+        "ru": "Железная дорога Решт – Астара не построена; соглашение о финансировании — май 2023 г.",
+        "en": "The Rasht–Astara railway is not built; financing agreement signed in May 2023."
+       }
+      },
+      {
+       "nodes": [
+        "rasht",
+        "qazvin",
+        "tehran"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": "2019-03-06",
+       "planned": false,
+       "note": null
+      }
+     ],
+     "note": null
+    },
+    {
+     "id": "caspian",
+     "name": {
+      "ru": "Транскаспийская ветвь",
+      "en": "Trans-Caspian branch"
+     },
+     "segments": [
+      {
+       "nodes": [
+        "astrakhan",
+        "olya"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": "2022",
+       "planned": false,
+       "note": null
+      },
+      {
+       "nodes": [
+        "olya",
+        "w_absheron_n",
+        "w_absheron_e",
+        "w_casp_s",
+        "anzali"
+       ],
+       "mode": "sea",
+       "appear": null,
+       "operate": "2022",
+       "planned": false,
+       "note": null
+      },
+      {
+       "nodes": [
+        "anzali",
+        "rasht"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": "2022",
+       "planned": false,
+       "note": null
+      }
+     ],
+     "note": null
+    },
+    {
+     "id": "east",
+     "name": {
+      "ru": "Восточная ветвь (через Казахстан и Туркменистан)",
+      "en": "Eastern branch (via Kazakhstan and Turkmenistan)"
+     },
+     "segments": [
+      {
+       "nodes": [
+        "astrakhan",
+        "makat",
+        "beyneu",
+        "bolashak",
+        "bereket",
+        "inchehborun",
+        "garmsar",
+        "tehran"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": "2014-12-03",
+       "planned": false,
+       "note": null
+      }
+     ],
+     "note": null
+    },
+    {
+     "id": "south",
+     "name": {
+      "ru": "Иран – Индия",
+      "en": "Iran – India"
+     },
+     "segments": [
+      {
+       "nodes": [
+        "tehran",
+        "bafq",
+        "bandarabbas"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": "2014-12-03",
+       "planned": false,
+       "note": null
+      },
+      {
+       "nodes": [
+        "bandarabbas",
+        "w_hormuz",
+        "w_oman",
+        "w_arab",
+        "nhavasheva"
+       ],
+       "mode": "sea",
+       "appear": null,
+       "operate": "2014-12-03",
+       "planned": false,
+       "note": null
+      }
+     ],
+     "note": null
+    }
+   ],
+   "capacity": [
+    {
+     "kind": "current",
+     "text": {
+      "ru": "Узкое место западной ветви — участок Дербент – Самур: около 8 млн т в год; российская часть — до 20 млн т к концу 2027 г.",
+      "en": "The western branch bottleneck is the Derbent–Samur section: about 8 million t a year; the Russian section is to reach 20 million t by end-2027."
+     },
+     "source_ids": [
+      "erai-instc-2025"
+     ]
+    },
+    {
+     "kind": "design",
+     "text": {
+      "ru": "После постройки железной дороги Решт – Астара (план — 2028 г.) — до 15 млн т в год.",
+      "en": "After the Rasht–Astara railway is built (planned for 2028): up to 15 million t a year."
+     },
+     "source_ids": [
+      "erai-instc-2025",
+      "irandaily-rasht"
+     ]
+    },
+    {
+     "kind": "design",
+     "text": {
+      "ru": "Железная дорога Казахстан – Туркменистан – Иран: при открытии в 2014 г. — 10 млн т в год с ростом до 20 млн т; участок Болашак – Берекет сейчас — 10 млн т.",
+      "en": "Kazakhstan–Turkmenistan–Iran railway: 10 million t a year at opening in 2014, rising to 20 million t; the Bolashak–Bereket section today: 10 million t."
+     },
+     "source_ids": [
+      "rferl-2014-kti",
+      "erai-instc-2025"
+     ]
+    },
+    {
+     "kind": "current",
+     "text": {
+      "ru": "Мощность российских портов Каспия — 23,5 млн т в год.",
+      "en": "Capacity of Russian Caspian ports: 23.5 million t a year."
+     },
+     "source_ids": [
+      "erai-instc-2025"
+     ]
+    }
+   ],
+   "volumes": [
+    {
+     "id": "total",
+     "label": {
+      "ru": "Все перевозки по коридору (все виды транспорта)",
+      "en": "All corridor traffic (all modes)"
+     },
+     "unit": {
+      "ru": "млн т",
+      "en": "million t"
+     },
+     "points": [
+      {
+       "year": 2022,
+       "value": 19.0,
+       "source_ids": [
+        "erai-instc-2025"
+       ]
+      },
+      {
+       "year": 2023,
+       "value": 22.6,
+       "source_ids": [
+        "erai-instc-2025"
+       ]
+      },
+      {
+       "year": 2024,
+       "value": 26.9,
+       "source_ids": [
+        "erai-instc-2025"
+       ]
+      }
+     ],
+     "note": {
+      "ru": "Оценка ERAI по докладу ЕАБР; включает перевозки всех стран коридора.",
+      "en": "ERAI estimate based on the EDB report; includes traffic of all corridor countries."
+     }
+    },
+    {
+     "id": "rus-irn",
+     "label": {
+      "ru": "Перевозки России и Ирана по маршрутам, 2025 г.",
+      "en": "Russia–Iran traffic by route, 2025"
+     },
+     "unit": {
+      "ru": "млн т",
+      "en": "million t"
+     },
+     "points": [
+      {
+       "year": 2025,
+       "value": 1.8,
+       "source_ids": [
+        "mintrans-2026"
+       ]
+      }
+     ],
+     "note": {
+      "ru": "Транскаспийский маршрут; по данным Минтранса России, в 2025 г. также: морем 2,8 млн т, автотранспортом 1,2 млн т, по железной дороге западным маршрутом 0,66 млн т, восточным — 0,04 млн т.",
+      "en": "Trans-Caspian route; per Russia's Ministry of Transport, 2025 also saw 2.8 million t by sea, 1.2 million t by road, 0.66 million t by rail on the western route and 0.04 million t on the eastern route."
+     }
+    }
+   ],
+   "history": [
+    {
+     "date": "2000-09-12",
+     "kind": "legal",
+     "text": {
+      "ru": "Россия, Иран и Индия подписывают соглашение о коридоре «Север – Юг» в Санкт-Петербурге.",
+      "en": "Russia, Iran and India sign the North–South corridor agreement in St Petersburg."
+     },
+     "source_ids": [
+      "ady-instc",
+      "iranprimer-instc"
+     ]
+    },
+    {
+     "date": "2002-05-16",
+     "kind": "legal",
+     "text": {
+      "ru": "Соглашение вступает в силу.",
+      "en": "The agreement enters into force."
+     },
+     "source_ids": [
+      "iranprimer-instc"
+     ]
+    },
+    {
+     "date": "2005-09-20",
+     "kind": "legal",
+     "text": {
+      "ru": "Азербайджан присоединяется к соглашению.",
+      "en": "Azerbaijan accedes to the agreement."
+     },
+     "source_ids": [
+      "ady-instc"
+     ]
+    },
+    {
+     "date": "2014-12-03",
+     "kind": "event",
+     "text": {
+      "ru": "Открыта железная дорога Узень – Берекет – Горган (Казахстан – Туркменистан – Иран).",
+      "en": "The Uzen–Bereket–Gorgan railway (Kazakhstan–Turkmenistan–Iran) opens."
+     },
+     "source_ids": [
+      "rferl-2014-kti",
+      "iranprimer-instc"
+     ]
+    },
+    {
+     "date": "2017-12",
+     "kind": "event",
+     "text": {
+      "ru": "Испытан железнодорожный участок Астара (Азербайджан) – Астара (Иран).",
+      "en": "The Astara (Azerbaijan) – Astara (Iran) rail link is tested."
+     },
+     "source_ids": [
+      "iranprimer-instc"
+     ]
+    },
+    {
+     "date": "2019-03-06",
+     "kind": "event",
+     "text": {
+      "ru": "Открыта железная дорога Казвин – Решт.",
+      "en": "The Qazvin–Rasht railway opens."
+     },
+     "source_ids": [
+      "iranprimer-instc"
+     ]
+    },
+    {
+     "date": "2022-07",
+     "kind": "event",
+     "text": {
+      "ru": "Первая коммерческая перевозка по восточной ветви (3800 км).",
+      "en": "First commercial shipment on the eastern branch (3,800 km)."
+     },
+     "source_ids": [
+      "erai-instc-2025"
+     ]
+    },
+    {
+     "date": "2023-05-17",
+     "kind": "legal",
+     "text": {
+      "ru": "Россия и Иран подписывают соглашение о финансировании железной дороги Решт – Астара.",
+      "en": "Russia and Iran sign a financing agreement for the Rasht–Astara railway."
+     },
+     "source_ids": [
+      "iranprimer-instc"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "ady-instc",
+     "title": "North-South Transport Corridor",
+     "author": "Азербайджанские железные дороги (ADY)",
+     "year": null,
+     "type": "официальный документ стороны",
+     "url": "https://freight.ady.az/en/international-corridors/north-south-transport-corridor",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "AZE",
+     "supports": [
+      "appear",
+      "parties",
+      "route",
+      "status"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": null
+    },
+    {
+     "id": "iranprimer-instc",
+     "title": "International North-South Transport Corridor",
+     "author": "The Iran Primer (U.S. Institute of Peace)",
+     "year": 2023,
+     "type": "справочное издание",
+     "url": "https://iranprimer.usip.org/node/11761",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "appear",
+      "operate",
+      "route",
+      "volumes",
+      "status",
+      "history"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "Без даты; последнее событие — 17 мая 2023 г."
+    },
+    {
+     "id": "erai-instc-2025",
+     "title": "Overcoming infrastructure barriers to the development of the International North-South Transport Corridor",
+     "author": "ERAI (index1520.com), по докладу ЕАБР",
+     "year": 2025,
+     "type": "академическая работа",
+     "url": "https://index1520.com/upload/medialibrary/dfe/yi0ikrx2vy47e1bnf19wclcmp8i1w2pu/INSTC_EN.pdf",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "route",
+      "volumes",
+      "capacity",
+      "status",
+      "operate"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "Апрель 2025 г."
+    },
+    {
+     "id": "rferl-2014-kti",
+     "title": "Presidents Of Iran, Turkmenistan, Kazakhstan Inaugurate Railway",
+     "author": "RFE/RL",
+     "year": 2014,
+     "type": "публикация СМИ",
+     "url": "https://www.rferl.org/a/presidents-of-iran-turkmenistan-kazakhstan-inaugurate-railway/26722762.html",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "operate",
+      "capacity",
+      "history"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "3 декабря 2014 г."
+    },
+    {
+     "id": "irandaily-rasht",
+     "title": "Russian minister announces 15-million-ton freight capacity for Rasht–Astara railway",
+     "author": "Iran Daily",
+     "year": 2025,
+     "type": "публикация СМИ",
+     "url": "https://newspaper.irandaily.ir/7833/3/15400",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "capacity",
+      "status"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "Без даты; по данным I квартала 2025 г."
+    },
+    {
+     "id": "mintrans-2026",
+     "title": "Объем перевозок по Международному транспортному коридору «Север-Юг» активно растет",
+     "author": "Министерство транспорта России",
+     "year": 2026,
+     "type": "официальный документ стороны",
+     "url": "https://mintrans.gov.ru/press-center/news/12937",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "RUS",
+     "supports": [
+      "volumes"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "2 сентября 2026 г."
+    }
+   ],
+   "confidence": "low",
+   "needs_human_review": true,
+   "review": {
+    "status": "draft",
+    "last_checked": "2026-11-19",
+    "conflicts": [
+     "Объём перевозок в 2022 г.: 19 млн т (ERAI, все виды транспорта) или «более 8 млн т» (The Iran Primer со ссылкой на Минтранс России) — разные определения",
+     "Длина недостающего участка Решт – Астара: 162 км (Iran Daily) или 167 км (ADY)"
+    ],
+    "notes": [
+     "Ряд объёмов 2022–2024 гг. — по одному источнику (ERAI)",
+     "Общие участки (Саратов – Астрахань, Тегеран – Бендер-Аббас – Нава-Шева) показаны сплошными с открытия восточной ветви в декабре 2014 г. — допущение редакции",
+     "Участники соглашения в карточке — Россия, Иран, Индия и Азербайджан (по прочитанным источникам); Казахстан и Туркменистан показаны как страны, через которые проходит ветвь",
+     "Сплошная линия западной ветви с декабря 2017 г. (испытание участка Астара – Астара) и транскаспийской с 2022 г. — по одному источнику (The Iran Primer)",
+     "Вступление соглашения в силу 16.05.2002 — по одному источнику",
+     "Линии — схема через узлы, названные ERAI; координаты приблизительные"
+    ]
+   }
+  },
+  {
+   "id": "middle",
+   "name": {
+    "ru": "Средний коридор (Транскаспийский международный транспортный маршрут, ТМТМ)",
+    "en": "Middle Corridor (Trans-Caspian International Transport Route, TITR)"
+   },
+   "alt_names": [],
+   "kind": "multimodal",
+   "color": "#d35400",
+   "parties": [
+    "KAZ",
+    "AZE",
+    "GEO"
+   ],
+   "appear": "2013-11-07",
+   "operate": "2015-08-03",
+   "summary": {
+    "ru": "Маршрут из Китая через Казахстан, Каспийское море, Азербайджан и Грузию в Турцию и Европу (в том числе через черноморские порты Болгарии и Румынии). Соглашение о координационном комитете подписали железные дороги Казахстана, Азербайджана и Грузии в 2013 г.; первый контейнерный поезд прошёл в 2015 г. Перевозки резко выросли после 2022 г., когда грузы стали искать пути в обход России.",
+    "en": "A route from China through Kazakhstan, the Caspian Sea, Azerbaijan and Georgia to Türkiye and Europe (including via Black Sea ports in Bulgaria and Romania). The railways of Kazakhstan, Azerbaijan and Georgia agreed to set up a coordination committee in 2013; the first container train ran in 2015. Traffic rose sharply after 2022 as shippers sought routes avoiding Russia."
+   },
+   "status": {
+    "ru": "Действует; паромная переправа через Каспий и порты — главные ограничения пропускной способности.",
+    "en": "Operating; the Caspian ferry crossing and ports are the main capacity constraints."
+   },
+   "branches": [
+    {
+     "id": "main",
+     "name": {
+      "ru": "Китай – Каспий – Грузия",
+      "en": "China – Caspian – Georgia"
+     },
+     "segments": [
+      {
+       "nodes": [
+        "dostyk",
+        "aktau"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      },
+      {
+       "nodes": [
+        "aktau",
+        "w_absheron_e",
+        "alyat"
+       ],
+       "mode": "sea",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      },
+      {
+       "nodes": [
+        "kuryk",
+        "aktau"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      },
+      {
+       "nodes": [
+        "alyat",
+        "tbilisi",
+        "poti"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      },
+      {
+       "nodes": [
+        "tbilisi",
+        "batumi"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      }
+     ],
+     "note": null
+    },
+    {
+     "id": "blacksea",
+     "name": {
+      "ru": "Черноморские линии в Европу",
+      "en": "Black Sea lines to Europe"
+     },
+     "segments": [
+      {
+       "nodes": [
+        "poti",
+        "varna"
+       ],
+       "mode": "sea",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      },
+      {
+       "nodes": [
+        "batumi",
+        "w_sinop",
+        "burgas"
+       ],
+       "mode": "sea",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      },
+      {
+       "nodes": [
+        "poti",
+        "constanta"
+       ],
+       "mode": "sea",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      }
+     ],
+     "note": null
+    },
+    {
+     "id": "turkey",
+     "name": {
+      "ru": "Через Турцию",
+      "en": "Via Türkiye"
+     },
+     "segments": [
+      {
+       "nodes": [
+        "tbilisi",
+        "kars",
+        "istanbul"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      }
+     ],
+     "note": {
+      "ru": "Направление через Турцию — схема; дата открытия железной дороги Баку – Тбилиси – Карс не проверялась.",
+      "en": "The route via Türkiye is schematic; the opening date of the Baku–Tbilisi–Kars railway was not checked."
+     }
+    }
+   ],
+   "capacity": [
+    {
+     "kind": "current",
+     "text": {
+      "ru": "Пропускная способность — около 6 млн т и до 182 тыс. контейнеров в год (Министерство транспорта Казахстана).",
+      "en": "Capacity: about 6 million t and up to 182,000 containers a year (Kazakhstan's Ministry of Transport)."
+     },
+     "source_ids": [
+      "astanatimes-2026"
+     ]
+    },
+    {
+     "kind": "estimate",
+     "text": {
+      "ru": "Всемирный банк (2023): при вложениях в инфраструктуру объёмы к 2030 г. могут утроиться, а время в пути — сократиться вдвое.",
+      "en": "World Bank (2023): with infrastructure investment, volumes could triple and transit time halve by 2030."
+     },
+     "source_ids": [
+      "wb-2023",
+      "astanatimes-2023-wb"
+     ]
+    },
+    {
+     "kind": "target",
+     "text": {
+      "ru": "Цель Казахстана — 300 тыс. ДФЭ в год к 2029 г.",
+      "en": "Kazakhstan's goal: 300,000 TEU a year by 2029."
+     },
+     "source_ids": [
+      "timesca-2026"
+     ]
+    }
+   ],
+   "volumes": [
+    {
+     "id": "kz",
+     "label": {
+      "ru": "Перевозки по ТМТМ (данные Казахстана)",
+      "en": "TITR traffic (Kazakhstan's data)"
+     },
+     "unit": {
+      "ru": "млн т",
+      "en": "million t"
+     },
+     "points": [
+      {
+       "year": 2021,
+       "value": 0.586,
+       "source_ids": [
+        "bta-titr"
+       ]
+      },
+      {
+       "year": 2022,
+       "value": 1.7,
+       "source_ids": [
+        "astanatimes-2026"
+       ]
+      },
+      {
+       "year": 2023,
+       "value": 2.76,
+       "source_ids": [
+        "astanatimes-2026"
+       ]
+      },
+      {
+       "year": 2024,
+       "value": 4.5,
+       "source_ids": [
+        "astanatimes-2026",
+        "timesca-2026",
+        "bta-titr"
+       ]
+      },
+      {
+       "year": 2025,
+       "value": 4.1,
+       "source_ids": [
+        "astanatimes-2026"
+       ]
+      }
+     ],
+     "note": null
+    },
+    {
+     "id": "teu",
+     "label": {
+      "ru": "Контейнеры",
+      "en": "Containers"
+     },
+     "unit": {
+      "ru": "тыс. ДФЭ",
+      "en": "thousand TEU"
+     },
+     "points": [
+      {
+       "year": 2024,
+       "value": 56.5,
+       "source_ids": [
+        "astanatimes-2026"
+       ]
+      },
+      {
+       "year": 2025,
+       "value": 77.0,
+       "source_ids": [
+        "astanatimes-2026",
+        "timesca-2026"
+       ]
+      }
+     ],
+     "note": null
+    }
+   ],
+   "history": [
+    {
+     "date": "2013-11-07",
+     "kind": "legal",
+     "text": {
+      "ru": "Железные дороги Казахстана, Азербайджана и Грузии подписывают в Астане соглашение о создании координационного комитета ТМТМ.",
+      "en": "The railways of Kazakhstan, Azerbaijan and Georgia sign an agreement in Astana to set up the TITR coordination committee."
+     },
+     "source_ids": [
+      "titr-history",
+      "bta-titr"
+     ]
+    },
+    {
+     "date": "2014-02",
+     "kind": "event",
+     "text": {
+      "ru": "Создан координационный комитет.",
+      "en": "The coordination committee is established."
+     },
+     "source_ids": [
+      "titr-history",
+      "bta-titr"
+     ]
+    },
+    {
+     "date": "2015-08-03",
+     "kind": "event",
+     "text": {
+      "ru": "Первый контейнерный поезд «Номад Экспресс» (Шихэцзы – Достык – Актау – Алят) прибывает в Баку.",
+      "en": "The first container train, Nomad Express (Shihezi – Dostyk – Aktau – Alyat), arrives in Baku."
+     },
+     "source_ids": [
+      "astanatimes-2015",
+      "tengri-2015"
+     ]
+    },
+    {
+     "date": "2017-02",
+     "kind": "event",
+     "text": {
+      "ru": "Начинает работу Международная ассоциация ТМТМ.",
+      "en": "The International Association TITR begins operating."
+     },
+     "source_ids": [
+      "titr-history",
+      "bta-titr"
+     ]
+    },
+    {
+     "date": "2024",
+     "kind": "event",
+     "text": {
+      "ru": "Перевезено 4,5 млн т — в несколько раз больше, чем до 2022 г.",
+      "en": "4.5 million t carried — several times more than before 2022."
+     },
+     "source_ids": [
+      "astanatimes-2026",
+      "timesca-2026"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "titr-history",
+     "title": "History of the Association",
+     "author": "Международная ассоциация «Транскаспийский международный транспортный маршрут»",
+     "year": null,
+     "type": "официальный документ стороны",
+     "url": "https://middlecorridor.com/en/about-the-association/history-en",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "international",
+     "supports": [
+      "appear",
+      "operate",
+      "history"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": null
+    },
+    {
+     "id": "bta-titr",
+     "title": "Explainer: Trans-Caspian International Transport Route (TITR)",
+     "author": "БТА (Болгарское телеграфное агентство)",
+     "year": 2025,
+     "type": "публикация СМИ",
+     "url": "https://www.bta.bg/en/news/1205568-explainer-trans-caspian-international-transport-route-titr-",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "appear",
+      "route",
+      "volumes",
+      "parties"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": null
+    },
+    {
+     "id": "astanatimes-2015",
+     "title": "Trans-Caspian Rail Route Launched",
+     "author": "The Astana Times",
+     "year": 2015,
+     "type": "публикация СМИ",
+     "url": "https://astanatimes.com/2015/08/trans-caspian-rail-route-launched/",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "operate",
+      "route",
+      "history"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "5 августа 2015 г."
+    },
+    {
+     "id": "tengri-2015",
+     "title": "New transportation opportunities for Trans-Caspian Route: Nomad express container train welcomed in Baku",
+     "author": "Tengrinews",
+     "year": 2015,
+     "type": "публикация СМИ",
+     "url": "https://en.tengrinews.kz/news/261459",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "operate",
+      "route"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "10 августа 2015 г."
+    },
+    {
+     "id": "astanatimes-2026",
+     "title": "Can Middle Corridor Deliver on Its Promise?",
+     "author": "Dana Omirgazy (The Astana Times)",
+     "year": 2026,
+     "type": "публикация СМИ",
+     "url": "https://astanatimes.com/2026/10/can-middle-corridor-deliver-on-its-promise/",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "volumes",
+      "capacity"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "12 октября 2026 г.; данные Министерства транспорта Казахстана"
+    },
+    {
+     "id": "timesca-2026",
+     "title": "Freight volumes on Middle Corridor through Kazakhstan rise fivefold in seven years",
+     "author": "Sergey Kwan (The Times of Central Asia)",
+     "year": 2026,
+     "type": "публикация СМИ",
+     "url": "https://timesca.com/freight-volumes-on-middle-corridor-through-kazakhstan-rise-fivefold-in-seven-years/",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "volumes",
+      "capacity"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "11 марта 2026 г."
+    },
+    {
+     "id": "bmge-2026",
+     "title": "Container traffic surges 36% on Trans-Caspian Middle Corridor in 2025",
+     "author": "BM.GE",
+     "year": 2026,
+     "type": "публикация СМИ",
+     "url": "https://bm.ge/en/news/container-traffic-surges-36-on-trans-caspian-middle-corridor-in-2025",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "volumes"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "17 февраля 2026 г.; данные Ассоциации ТМТМ"
+    },
+    {
+     "id": "wb-2023",
+     "title": "Middle Corridor through Central Asia, Caucasus Can Boost Trade Connectivity and Supply Chain Resilience",
+     "author": "Всемирный банк",
+     "year": 2023,
+     "type": "официальный документ стороны",
+     "url": "https://www.worldbank.org/en/news/press-release/2023/11/27/middle-corridor-through-central-asia-caucasus-can-boost-trade-connectivity-and-supply-chain-resilience",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "international",
+     "supports": [
+      "capacity"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "27 ноября 2023 г."
+    },
+    {
+     "id": "astanatimes-2023-wb",
+     "title": "World Bank Estimates Tripling Trade Volumes on Middle Corridor by 2030",
+     "author": "The Astana Times",
+     "year": 2023,
+     "type": "публикация СМИ",
+     "url": "https://astanatimes.com/2023/11/world-bank-estimates-tripling-trade-volumes-on-middle-corridor-by-2030/",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "capacity"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": null
+    }
+   ],
+   "confidence": "medium",
+   "needs_human_review": true,
+   "review": {
+    "status": "draft",
+    "last_checked": "2026-11-19",
+    "conflicts": [
+     "2025 г.: 4,1 млн т, снижение на 8,9% (Министерство транспорта Казахстана, по The Astana Times) или 1,867 млн т, рост на 0,5% (Ассоциация ТМТМ, по BM.GE) — у ведомства и ассоциации разные методики учёта",
+     "Контейнеры в 2025 г.: около 77 тыс. ДФЭ (Казахстан, по The Astana Times и TimesCA) или 42 тыс. ДФЭ (КТЖ, по Trend)"
+    ],
+    "notes": [
+     "Объёмы 2021–2023 и 2025 гг. — по одному источнику каждый",
+     "Пропускная способность 6 млн т — по одному источнику",
+     "Направление через Турцию и узел Карс — схема"
+    ]
+   }
+  },
+  {
+   "id": "imec",
+   "name": {
+    "ru": "Экономический коридор «Индия – Ближний Восток – Европа» (IMEC)",
+    "en": "India–Middle East–Europe Economic Corridor (IMEC)"
+   },
+   "alt_names": [],
+   "kind": "economic",
+   "color": "#1f5fbf",
+   "parties": [
+    "IND",
+    "SAU",
+    "ARE",
+    "FRA",
+    "DEU",
+    "ITA",
+    "USA"
+   ],
+   "appear": "2023-09-09",
+   "operate": null,
+   "summary": {
+    "ru": "Проект, объявленный на саммите G20 в Нью-Дели 9 сентября 2023 г.: восточный коридор связывает Индию с Персидским заливом, северный — Залив с Европой. Предусмотрены морские перевозки из индийских портов в ОАЭ, железная дорога через Саудовскую Аравию и Иорданию до порта Хайфа, далее морем в Европу, а также кабели связи, линии электропередачи и трубопровод для водорода. Меморандум не имеет обязательной силы.",
+    "en": "A project announced at the G20 summit in New Delhi on 9 September 2023: an eastern corridor links India to the Persian Gulf and a northern one links the Gulf to Europe. It envisages shipping from Indian ports to the UAE, a railway across Saudi Arabia and Jordan to the port of Haifa, then by sea to Europe, plus data and power cables and a hydrogen pipeline. The memorandum is not legally binding."
+   },
+   "status": {
+    "ru": "Проект; недостающие железные дороги (Эль-Гувайфат – Харад, участок через Иорданию) не построены. Работа замедлилась из-за войн в Газе и вокруг Ирана.",
+    "en": "Project; the missing railways (Al-Ghuwaifat – Haradh, the section across Jordan) are not built. Work slowed because of the wars in Gaza and around Iran."
+   },
+   "branches": [
+    {
+     "id": "east",
+     "name": {
+      "ru": "Восточный коридор: Индия – Залив",
+      "en": "Eastern corridor: India – Gulf"
+     },
+     "segments": [
+      {
+       "nodes": [
+        "mundra",
+        "w_kutch",
+        "w_oman",
+        "w_hormuz",
+        "w_musandam",
+        "w_gulf",
+        "jebelali"
+       ],
+       "mode": "sea",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      },
+      {
+       "nodes": [
+        "nhavasheva",
+        "fujairah"
+       ],
+       "mode": "sea",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      }
+     ],
+     "note": null
+    },
+    {
+     "id": "rail",
+     "name": {
+      "ru": "Железная дорога через Аравию",
+      "en": "Rail across Arabia"
+     },
+     "segments": [
+      {
+       "nodes": [
+        "jebelali",
+        "ghuwaifat"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      },
+      {
+       "nodes": [
+        "ghuwaifat",
+        "haradh"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": null,
+       "planned": true,
+       "note": {
+        "ru": "Разрыв около 269 км (оценка — около 2 млрд долл.).",
+        "en": "A gap of about 269 km (estimated at about $2 billion)."
+       }
+      },
+      {
+       "nodes": [
+        "haradh",
+        "hadithah"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      },
+      {
+       "nodes": [
+        "hadithah",
+        "mafraq",
+        "beitshean"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": null,
+       "planned": true,
+       "note": {
+        "ru": "Железной дороги через Иорданию нет; обязательств по строительству не принято.",
+        "en": "There is no railway across Jordan; no construction commitments have been made."
+       }
+      },
+      {
+       "nodes": [
+        "beitshean",
+        "haifa"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      }
+     ],
+     "note": null
+    },
+    {
+     "id": "north",
+     "name": {
+      "ru": "Северный коридор: Средиземное море – Европа",
+      "en": "Northern corridor: Mediterranean – Europe"
+     },
+     "segments": [
+      {
+       "nodes": [
+        "haifa",
+        "w_rhodes",
+        "w_cyclades",
+        "piraeus"
+       ],
+       "mode": "sea",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      },
+      {
+       "nodes": [
+        "haifa",
+        "w_crete_s",
+        "w_ionian",
+        "w_otranto",
+        "w_adriatic",
+        "w_adriatic_n",
+        "w_istria",
+        "trieste"
+       ],
+       "mode": "sea",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      },
+      {
+       "nodes": [
+        "haifa",
+        "w_crete_s",
+        "w_sicily",
+        "w_sardinia",
+        "w_lion",
+        "marseille"
+       ],
+       "mode": "sea",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      }
+     ],
+     "note": null
+    }
+   ],
+   "capacity": [
+    {
+     "kind": "estimate",
+     "text": {
+      "ru": "Ожидаемый эффект: доставка быстрее до 40%, логистика дешевле до 30%.",
+      "en": "Expected effect: delivery up to 40% faster and logistics up to 30% cheaper."
+     },
+     "source_ids": [
+      "theprint-2026",
+      "mei-2026"
+     ]
+    },
+    {
+     "kind": "estimate",
+     "text": {
+      "ru": "Потенциал — около 3 млн ДФЭ в год.",
+      "en": "Potential: about 3 million TEU a year."
+     },
+     "source_ids": [
+      "mei-2026"
+     ]
+    },
+    {
+     "kind": "design",
+     "text": {
+      "ru": "Длина около 4800 км, стоимость около 20 млрд долл.; цель — 48 часов от Мундры до Хайфы.",
+      "en": "About 4,800 km long and about $20 billion; the goal is 48 hours from Mundra to Haifa."
+     },
+     "source_ids": [
+      "indiaseatrade-2024"
+     ]
+    }
+   ],
+   "volumes": [],
+   "history": [
+    {
+     "date": "2023-09-09",
+     "kind": "legal",
+     "text": {
+      "ru": "На полях саммита G20 в Нью-Дели подписан меморандум о принципах коридора.",
+      "en": "A memorandum on the corridor's principles is signed on the sidelines of the G20 summit in New Delhi."
+     },
+     "source_ids": [
+      "wh-imec-mou",
+      "reuters-2023-imec"
+     ]
+    },
+    {
+     "date": "2024-06",
+     "kind": "event",
+     "text": {
+      "ru": "Работа начинается с цифровой платформы обмена документами между портами Индии и ОАЭ.",
+      "en": "Work starts with a digital document-exchange platform between Indian and UAE ports."
+     },
+     "source_ids": [
+      "indiaseatrade-2024"
+     ]
+    },
+    {
+     "date": "2026-09",
+     "kind": "event",
+     "text": {
+      "ru": "США заявляют о поддержке коридора; проект остаётся незавершённым.",
+      "en": "The US voices support for the corridor; the project remains a work in progress."
+     },
+     "source_ids": [
+      "theprint-2026"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "wh-imec-mou",
+     "title": "Memorandum of Understanding on the Principles of an India – Middle East – Europe Economic Corridor",
+     "author": "Белый дом (архив администрации Байдена)",
+     "year": 2023,
+     "type": "официальный документ стороны",
+     "url": "https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/09/09/memorandum-of-understanding-on-the-principles-of-an-india-middle-east-europe-economic-corridor/",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "USA",
+     "supports": [
+      "appear",
+      "parties",
+      "route",
+      "status"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "9 сентября 2023 г."
+    },
+    {
+     "id": "reuters-2023-imec",
+     "title": "US, India, Saudi, EU unveil rail, ports deal on G20 sidelines",
+     "author": "Reuters (The Jakarta Post)",
+     "year": 2023,
+     "type": "публикация СМИ",
+     "url": "https://www.thejakartapost.com/business/2023/09/10/us-india-saudi-eu-unveil-rail-ports-deal-on-g20-sidelines.html",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "appear",
+      "parties",
+      "route"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "10 сентября 2023 г."
+    },
+    {
+     "id": "mei-2026",
+     "title": "The India-Middle East-Europe Economic Corridor (backgrounder)",
+     "author": "Walter Murdoch, Karen E. Young (Middle East Institute)",
+     "year": 2026,
+     "type": "справочное издание",
+     "url": "https://mei.edu/backgrounder/the-india-middle-east-europe-economic-corridor/",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "route",
+      "status",
+      "capacity"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "3 июня 2026 г."
+    },
+    {
+     "id": "theprint-2026",
+     "title": "IMEC gets a Trump boost as the India-Middle East-Europe trade route remains a work in progress",
+     "author": "Debdutta Chakraborty (ThePrint)",
+     "year": 2026,
+     "type": "публикация СМИ",
+     "url": "https://theprint.in/diplomacy/imec-gets-a-trump-boost-as-the-india-middle-east-europe-trade-route-remains-a-work-in-progress/3054039/",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "status",
+      "capacity",
+      "parties"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "26 сентября 2026 г."
+    },
+    {
+     "id": "indiaseatrade-2024",
+     "title": "Work on India-UAE leg of $20b trade corridor set to kick off",
+     "author": "India Sea Trade News",
+     "year": 2024,
+     "type": "публикация СМИ",
+     "url": "https://indiaseatradenews.com/work-on-india-uae-leg-of-20b-trade-corridor-set-to-kick-off/",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "route",
+      "capacity",
+      "status"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "28 июня 2024 г."
+    }
+   ],
+   "confidence": "medium",
+   "needs_human_review": true,
+   "review": {
+    "status": "draft",
+    "last_checked": "2026-11-19",
+    "conflicts": [
+     "Состав участников: меморандум 2023 г. называет Саудовскую Аравию, ЕС, Индию, ОАЭ, Францию, Германию, Италию и США; Middle East Institute относит к основным участникам также Израиль и Иорданию, отмечая, что Иордания ничего официально не подписывала"
+    ],
+    "notes": [
+     "Действующих перевозок по коридору как единому маршруту нет; объёмы не показаны",
+     "Потенциал 3 млн ДФЭ, длина и стоимость — по одному источнику",
+     "ЕС — участник меморандума; на карте закрашиваются только государства",
+     "Морские линии — схема; порты Индии и ОАЭ — по India Sea Trade News (порт Кандла на схеме не показан), узлы в Аравии и Европе — по Middle East Institute"
+    ]
+   }
+  },
+  {
+   "id": "tripp",
+   "name": {
+    "ru": "Маршрут Трампа во имя международного мира и процветания (TRIPP)",
+    "en": "Trump Route for International Peace and Prosperity (TRIPP)"
+   },
+   "alt_names": [],
+   "kind": "multimodal",
+   "color": "#a07800",
+   "parties": [
+    "ARM",
+    "AZE",
+    "USA"
+   ],
+   "appear": "2025-08-08",
+   "operate": null,
+   "summary": {
+    "ru": "Транзитный маршрут через территорию Армении, связывающий основную часть Азербайджана с Нахичеванской Автономной Республикой и далее с сетью Турции. Объявлен 8 августа 2025 г. на встрече лидеров Армении и Азербайджана в Белом доме. Основа — восстановление железной дороги длиной около 43 км вдоль границы Армении с Ираном через Мегри; планируются также дорога, газопровод, линии электропередачи и оптоволокно. Рамочный документ США и Армении (январь 2026 г.) закрепляет суверенитет и юрисдикцию Армении над пограничным и таможенным контролем.",
+    "en": "A transit route across Armenian territory linking the main part of Azerbaijan with the Nakhchivan Autonomous Republic and on to Türkiye's network. Announced on 8 August 2025 at a meeting of the Armenian and Azerbaijani leaders at the White House. Its core is restoring a railway of about 43 km along Armenia's border with Iran through Meghri; a road, a gas pipeline, power lines and fibre optics are also planned. The US–Armenia framework (January 2026) affirms Armenia's sovereignty and jurisdiction over border and customs control."
+   },
+   "status": {
+    "ru": "Проект; строительство в Армении ожидается не раньше 2027 г. Компания-разработчик: 74% у США, 26% у Армении, права — на 49 лет с возможным продлением на 50 лет.",
+    "en": "Project; construction in Armenia is not expected before 2027. Development company: 74% US, 26% Armenia; rights for 49 years, extendable by 50 years."
+   },
+   "branches": [
+    {
+     "id": "armenia",
+     "name": {
+      "ru": "Армянский участок (около 42–43 км, через Мегри)",
+      "en": "Armenian section (about 42–43 km, via Meghri)"
+     },
+     "segments": [
+      {
+       "nodes": [
+        "aze_border_e",
+        "meghri",
+        "nakh_border_w"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      }
+     ],
+     "note": null
+    },
+    {
+     "id": "nakhchivan",
+     "name": {
+      "ru": "Связь с Нахичеванью",
+      "en": "Link to Nakhchivan"
+     },
+     "segments": [
+      {
+       "nodes": [
+        "nakh_border_w",
+        "julfa",
+        "nakhchivan"
+       ],
+       "mode": "land",
+       "appear": null,
+       "operate": null,
+       "planned": false,
+       "note": null
+      }
+     ],
+     "note": {
+      "ru": "Азербайджан модернизирует нахичеванский участок; связь с сетью Турции — схема.",
+      "en": "Azerbaijan is upgrading the Nakhchivan section; the link to Türkiye's network is schematic."
+     }
+    }
+   ],
+   "capacity": [
+    {
+     "kind": "estimate",
+     "text": {
+      "ru": "Данных о пропускной способности нет. Оценка стоимости железнодорожного участка 43 км — 250–400 млн долл.",
+      "en": "No capacity data. The 43-km rail section is estimated at $250–400 million."
+     },
+     "source_ids": [
+      "carnegie-2026"
+     ]
+    }
+   ],
+   "volumes": [],
+   "history": [
+    {
+     "date": "2025-08-08",
+     "kind": "legal",
+     "text": {
+      "ru": "Совместная декларация Армении и Азербайджана в Белом доме; маршрут получает название TRIPP.",
+      "en": "Armenia–Azerbaijan joint declaration at the White House; the route is named TRIPP."
+     },
+     "source_ids": [
+      "mfa-am-tripp",
+      "carnegie-2026"
+     ]
+    },
+    {
+     "date": "2026-01-13",
+     "kind": "legal",
+     "text": {
+      "ru": "США и Армения публикуют рамочный документ о реализации TRIPP.",
+      "en": "The US and Armenia publish the TRIPP implementation framework."
+     },
+     "source_ids": [
+      "mfa-am-tripp",
+      "eurasianet-2026-01"
+     ]
+    },
+    {
+     "date": "2026-09",
+     "kind": "event",
+     "text": {
+      "ru": "Начало строительства перенесено: работы не начнутся раньше 2027 г.",
+      "en": "Start of construction postponed: works will not begin before 2027."
+     },
+     "source_ids": [
+      "eurasianet-2026-09"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "mfa-am-tripp",
+     "title": "Joint Statement on the Publication of the Armenia-U.S. Implementation Framework for the Trump Route for International Peace and Prosperity (TRIPP)",
+     "author": "МИД Армении",
+     "year": 2026,
+     "type": "официальный документ стороны",
+     "url": "https://www.mfa.am/en/press-releases/2026/01/14/TRIPP/13721",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "ARM,USA",
+     "supports": [
+      "appear",
+      "parties",
+      "route",
+      "status"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "14 января 2026 г."
+    },
+    {
+     "id": "eurasianet-2026-01",
+     "title": "US and Armenia unveil TRIPP development blueprint",
+     "author": "Eurasianet",
+     "year": 2026,
+     "type": "публикация СМИ",
+     "url": "https://eurasianet.org/us-and-armenia-unveil-tripp-development-blueprint",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "route",
+      "status"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "14 января 2026 г."
+    },
+    {
+     "id": "carnegie-2026",
+     "title": "Rewiring the South Caucasus: TRIPP and the New Geopolitics of Connectivity",
+     "author": "Thomas de Waal, Areg Kochinyan, Zaur Shiriyev (Carnegie Endowment)",
+     "year": 2026,
+     "type": "академическая работа",
+     "url": "https://carnegieendowment.org/research/2026/03/rewiring-the-south-caucasus-tripp-and-the-new-geopolitics-of-connectivity",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "appear",
+      "route",
+      "status",
+      "capacity"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "1 апреля 2026 г."
+    },
+    {
+     "id": "eurasianet-2026-09",
+     "title": "Start date for TRIPP trade corridor connecting Armenia and Azerbaijan pushed back",
+     "author": "Eurasianet",
+     "year": 2026,
+     "type": "публикация СМИ",
+     "url": "https://eurasianet.org/start-date-for-tripp-trade-corridor-connecting-armenia-and-azerbaijan-pushed-back",
+     "doi": null,
+     "page_or_article": null,
+     "perspective": "neutral",
+     "supports": [
+      "route",
+      "status"
+     ],
+     "verified_fulltext": true,
+     "accessed": "2026-11-19",
+     "language": null,
+     "note": "10 сентября 2026 г."
+    }
+   ],
+   "confidence": "medium",
+   "needs_human_review": true,
+   "review": {
+    "status": "draft",
+    "last_checked": "2026-11-19",
+    "conflicts": [
+     "Длина армянского участка: около 42 км (Eurasianet) или 43 км (Carnegie)"
+    ],
+    "notes": [
+     "Рамочный документ указывает, что места прохождения маршрута будут определены позже; линия через Мегри — по описанию Carnegie и Eurasianet",
+     "Перенос начала строительства на 2027 г. — по одному источнику",
+     "Название, используемое в Азербайджане, в карточку не включено: источник не прочитан"
+    ]
+   }
+  }
+ ]
+}

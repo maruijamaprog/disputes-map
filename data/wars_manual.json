@@ -1,0 +1,150 @@
+{
+ "_about": "Редакционные правки режима «Военные конфликты» за 2026 г., пока не вышел UCDP 27.1. Каждое решение — не меньше двух независимых источников. Формат описан в scripts/build_wars.py; метод — docs/VERIFICATION_REPORT.md, раздел «Партия 2: войны 2026 г.».",
+ "checked": "2026-10-29",
+ "set": [
+  {
+   "id": "ucdp-13243",
+   "keep_u": [731],
+   "note": {
+    "ru": "2026 г.: боевые действия продолжаются — ежедневные удары дальнего действия с обеих сторон, фронт не стабилизирован (AP, 24 октября 2026 г.; NPR, 16 августа 2026 г.). Участие КНДР в 2026 г. по проверенным источникам не подтверждено и оставлено с пометкой «не проверено».",
+    "en": "2026: fighting continues, with daily long-range strikes by both sides and an active front (AP, 24 October 2026; NPR, 16 August 2026). North Korea's involvement in 2026 is not confirmed by the sources checked and remains marked as unverified."
+   },
+   "sources": ["ap-2026-10-24", "npr-2026-08-16"]
+  },
+  {
+   "id": "ucdp-14609",
+   "to": "2025-06-24",
+   "clip": true,
+   "note": {
+    "ru": "Эпизод 2025 г. («двенадцатидневная война») завершился перемирием 24 июня 2025 г. Война, начавшаяся 28 февраля 2026 г., показана отдельной записью.",
+    "en": "The 2025 episode (the 'twelve-day war') ended with the ceasefire of 24 June 2025. The war that began on 28 February 2026 is shown as a separate entry."
+   },
+   "sources": ["aj-2025-06-24", "aa-2025-06-24"]
+  },
+  {
+   "id": "ucdp-218",
+   "to": "2025-05-10",
+   "clip": true,
+   "note": {
+    "ru": "Четырёхдневный конфликт мая 2025 г. завершился перемирием 10 мая 2025 г. В материалах к годовщине (май 2026 г.) новых боёв между армиями не отмечено.",
+    "en": "The four-day conflict of May 2025 ended with the ceasefire of 10 May 2025. Anniversary reporting (May 2026) notes no further fighting between the two armies."
+   },
+   "sources": ["afp-arabnews-2026-05-07", "aa-dailysabah-2026-05-07"]
+  },
+  {
+   "id": "ucdp-294",
+   "to": "2025-12-27",
+   "clip": true,
+   "note": {
+    "ru": "Бои декабря 2025 г. прекращены перемирием 27 декабря 2025 г. В 2026 г. стороны обвиняли друг друга в нарушениях (6 января — миномётный обстрел, ранен один военный; 24 февраля — перестрелка без сообщений о жертвах). Сведений о боях с погибшими после этого в проверенных источниках нет; требует сверки с UCDP 27.1.",
+    "en": "The December 2025 fighting was halted by the truce of 27 December 2025. In 2026 the sides accused each other of violations (6 January: mortar fire, one soldier wounded; 24 February: exchange of fire, no casualties reported). The sources checked report no deadly fighting after that; to be re-checked against UCDP 27.1."
+   },
+   "sources": ["aj-2026-01-06", "afp-fe-2026-02-25"]
+  },
+  {
+   "id": "ucdp-11639",
+   "verified_to": "2026-04-27",
+   "note": {
+    "ru": "2026 г.: 26 февраля после нападений на пограничные посты Пакистан начал авиаудары по Афганистану, включая Кабул и Кандагар, и заявил об «открытой войне». Перемирие на праздник Ид аль-Фитр (март), переговоры в Урумчи (апрель); 27 апреля — новые обстрелы в провинции Кунар. Позже 27 апреля — без проверки.",
+    "en": "2026: on 26 February, after attacks on border posts, Pakistan launched air strikes on Afghanistan, including Kabul and Kandahar, and declared 'open war'. An Eid al-Fitr truce (March), talks in Urumqi (April); on 27 April, new shelling in Kunar province. After 27 April: unverified."
+   },
+   "sources": ["chatham-2026-03-04", "aj-2026-04-02", "aj-2026-04-27"]
+  },
+  {
+   "id": "ucdp-426",
+   "to": "2026-06-20",
+   "int": 2,
+   "note": {
+    "ru": "2 марта 2026 г. «Хезболла» открыла огонь по Израилю в поддержку Ирана; к июню 2026 г. в Ливане погибло более 3400 человек (данные минздрава Ливана). Частичная договорённость 16 апреля; перемирие соблюдается почти полностью с вечера 20 июня 2026 г.; в обзоре ISW от 26 октября 2026 г. оно упоминается как вступившее в силу в июне.",
+    "en": "On 2 March 2026 Hezbollah opened fire on Israel in support of Iran; by June 2026 more than 3,400 people had been killed in Lebanon (Lebanese health ministry). A partial arrangement on 16 April; the ceasefire has been almost fully observed since the evening of 20 June 2026; the ISW update of 26 October 2026 refers to it as having taken effect in June."
+   },
+   "sources": ["reuters-rte-2026-06-02", "reuters-dawn-2026-06-22", "isw-2026-10-26"]
+  },
+  {
+   "id": "ucdp-309",
+   "verified_to": "2026-08-27",
+   "note": {
+    "ru": "2026 г.: бои армии и СБР продолжаются в Дарфуре, Кордофане и штате Голубой Нил (январь — более 100 погибших за неделю в Дарфуре; февраль — удары беспилотников в Северном Кордофане; 27 августа — бой в штате Голубой Нил). Позже 27 августа — без проверки.",
+    "en": "2026: fighting between the army and the RSF continues in Darfur, Kordofan and Blue Nile state (January: over 100 killed in a week in Darfur; February: drone strikes in North Kordofan; 27 August: fighting in Blue Nile state). After 27 August: unverified."
+   },
+   "sources": ["afp-dawn-2026-01-04", "aj-2026-02-07", "st-2026-08-27"]
+  },
+  {
+   "id": "ucdp-16470",
+   "only_note": true,
+   "note": {
+    "ru": "28 марта 2026 г. хуситы объявили о ракетных ударах по Израилю в ходе войны с Ираном. Число погибших и дальнейший ход боёв по проверенным источникам не установлены — весь 2026 г. оставлен с пометкой «не проверено».",
+    "en": "On 28 March 2026 the Houthis announced missile strikes on Israel during the war with Iran. Casualties and the further course of hostilities are not established by the sources checked, so all of 2026 remains marked as unverified."
+   },
+   "sources": ["national-2026-03-28", "mee-2026-03-28"]
+  }
+ ],
+ "conflicts": [
+  {
+   "id": "man-2026-iran",
+   "kind": "interstate",
+   "name": {"ru": "Конфликт Израиля и США с Ираном (2026)", "en": "Israel/US–Iran conflict (2026)"},
+   "loc": [630],
+   "location": "Iran, Israel, United States of America",
+   "start": "2026-02-28",
+   "end": null,
+   "parts": [
+    {"g": 2, "side": 0, "role": 1, "from": "2026-02-28", "to": null, "int": 2},
+    {"g": 666, "side": 0, "role": 1, "from": "2026-02-28", "to": null, "int": 2},
+    {"g": 630, "side": 1, "role": 1, "from": "2026-02-28", "to": null, "int": 2}
+   ],
+   "note": {
+    "ru": "28 февраля 2026 г. Израиль и США начали удары по Ирану; Иран ответил ударами по Израилю, базам США в регионе и объектам в арабских государствах. К апрелю в Иране погибло более 3000 человек (данные иранских властей). Условное перемирие 8 апреля, соглашение при посредничестве Пакистана в июне; в июле удары возобновились. На октябрь 2026 г. — патовая ситуация без действующего перемирия: морская блокада иранских портов, нападения на суда. Государства, по территории которых Иран наносил удары (Бахрейн, Катар, Кувейт, ОАЭ, Саудовская Аравия, Иордания и др.), на карте не закрашены: их участие в боевых действиях как сторон источниками не установлено.",
+    "en": "On 28 February 2026 Israel and the US began strikes on Iran; Iran retaliated against Israel, US bases in the region and sites in Arab states. By April more than 3,000 people had been killed in Iran (Iranian official figures). A conditional ceasefire on 8 April and a Pakistan-mediated agreement in June; strikes resumed in July. As of October 2026: a stalemate with no ceasefire in force, a naval blockade of Iranian ports and attacks on shipping. States whose territory Iran struck (Bahrain, Qatar, Kuwait, the UAE, Saudi Arabia, Jordan and others) are not shaded: the sources do not establish them as parties to the fighting."
+   },
+   "sources": ["hcl-cbp10521", "aj-2026-06-15", "national-2026-07-17", "aj-2026-10-15", "isw-2026-10-26", "reuters-kt-2026-04-10", "ap-ajc-2026-04-20"]
+  },
+  {
+   "id": "man-2026-ven",
+   "kind": "interstate",
+   "name": {"ru": "Военная операция США в Венесуэле (январь 2026)", "en": "US military operation in Venezuela (January 2026)"},
+   "loc": [101],
+   "location": "Venezuela",
+   "start": "2026-01-03",
+   "end": "2026-01-03",
+   "parts": [
+    {"g": 2, "side": 0, "role": 1, "from": "2026-01-03", "to": "2026-01-03", "int": 1},
+    {"g": 101, "side": 1, "role": 1, "from": "2026-01-03", "to": "2026-01-03", "int": 1}
+   ],
+   "note": {
+    "ru": "В ночь на 3 января 2026 г. США нанесли удары по военным объектам в районе Каракаса и на побережье; спецподразделения захватили Николаса Мадуро. По оценке CSIS, погибло около 75 человек, в том числе кубинские военнослужащие из охраны Мадуро. Повторных ударов источники не сообщают.",
+    "en": "Overnight on 3 January 2026 the US struck military sites in the Caracas area and on the coast, and special forces captured Nicolás Maduro. CSIS estimates about 75 deaths, including Cuban personnel in Maduro's security detail. The sources report no further strikes."
+   },
+   "sources": ["ap-mt-2026-01-03", "csis-2026-01-09"]
+  }
+ ],
+ "sources": [
+  {"id": "ap-2026-10-24", "title": "Ukraine and Russia eye new peace talks, but steep obstacles remain", "author": "The Associated Press (MPR News)", "year": 2026, "published": "2026-10-24", "url": "https://www.mprnews.org/story/2026/10/24/ukraine-and-russia-eye-new-peace-talks-but-steep-obstacles-remain", "accessed": "2026-10-29"},
+  {"id": "npr-2026-08-16", "title": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia", "author": "NPR", "year": 2026, "published": "2026-08-16", "url": "https://npr.org/2026/08/16/nx-s1-5933006/ukraine-aerial-attack-6-dead-russia", "accessed": "2026-10-29"},
+  {"id": "aj-2025-06-24", "title": "US-Israel-Iran conflict: List of key events, June 24, 2025", "author": "Al Jazeera", "year": 2025, "published": "2025-06-24", "url": "https://www.aljazeera.com/news/2025/6/24/us-israel-iran-conflict-list-of-key-events-june-24-2025", "accessed": "2026-10-29"},
+  {"id": "aa-2025-06-24", "title": "Israel and Iran agree to a ceasefire, Trump announces", "author": "Diyar Güldoğan (Anadolu Agency)", "year": 2025, "published": "2025-06-24", "url": "https://www.aa.com.tr/en/americas/israel-and-iran-agree-to-a-ceasefire-trump-announces/3610450", "accessed": "2026-10-29"},
+  {"id": "afp-arabnews-2026-05-07", "title": "India vows to crush terror ‘ecosystem’, a year after Pakistan conflict", "author": "AFP (Arab News)", "year": 2026, "published": "2026-05-07", "url": "https://arabnews.com/node/2642630/world", "accessed": "2026-10-29"},
+  {"id": "aa-dailysabah-2026-05-07", "title": "Pakistan, India mark year since May cross-border conflict", "author": "Anadolu Agency (Daily Sabah)", "year": 2026, "published": "2026-05-07", "url": "https://www.dailysabah.com/world/asia-pacific/pakistan-india-mark-year-since-may-cross-border-conflict", "accessed": "2026-10-29"},
+  {"id": "aj-2026-01-06", "title": "Thai army says Cambodia claims new border strike was accident amid truce", "author": "Al Jazeera", "year": 2026, "published": "2026-01-06", "url": "https://www.aljazeera.com/news/2026/1/6/thai-army-says-cambodia-claims-new-border-strike-was-accident-amid-truce", "accessed": "2026-10-29"},
+  {"id": "afp-fe-2026-02-25", "title": "Thailand, Cambodia dispute exchange of fire at border", "author": "AFP (The Financial Express)", "year": 2026, "published": "2026-02-25", "url": "https://today.thefinancialexpress.com.bd/print/thailand-cambodia-dispute-exchange-of-fire-at-border-1771957224", "accessed": "2026-10-29"},
+  {"id": "chatham-2026-03-04", "title": "Afghanistan and Pakistan are facing ‘open war’. De-escalation is needed", "author": "Chatham House", "year": 2026, "published": "2026-03-04", "url": "https://www.chathamhouse.org/2026/03/afghanistan-and-pakistan-are-facing-open-war-de-escalation-needed", "accessed": "2026-10-29"},
+  {"id": "aj-2026-04-02", "title": "Pakistan, Afghanistan hold talks in China to end months of conflict", "author": "Al Jazeera (AFP, Reuters)", "year": 2026, "published": "2026-04-02", "url": "https://www.aljazeera.com/news/2026/4/2/pakistan-afghanistan-hold-talks-in-china-to-end-months-of-conflict", "accessed": "2026-10-29"},
+  {"id": "aj-2026-04-27", "title": "Ceasefire at risk as Pakistan and Afghanistan report cross-border attacks", "author": "Al Jazeera (AFP, Reuters)", "year": 2026, "published": "2026-04-27", "url": "https://www.aljazeera.com/news/2026/4/27/ceasefire-at-risk-as-pakistan-and-afghanistan-report-cross-border-attacks", "accessed": "2026-10-29"},
+  {"id": "reuters-rte-2026-06-02", "title": "Israel strikes south Lebanon after stepping back from Beirut attack", "author": "Reuters (RTÉ)", "year": 2026, "published": "2026-06-02", "url": "https://www.rte.ie/news/middle-east/2026/0602/1576268-lebanon-ceasefire/", "accessed": "2026-10-29"},
+  {"id": "reuters-dawn-2026-06-22", "title": "READ: Lebanon ceasefire largely holds but fears persist it may collapse", "author": "Reuters (Dawn)", "year": 2026, "published": "2026-06-22", "url": "https://www.dawn.com/news/amp/2010041", "accessed": "2026-10-29"},
+  {"id": "isw-2026-10-26", "title": "Iran Update, October 26, 2026", "author": "Adham Fattah, Ria Reddy, Ben Rezaei, Kelly Campa (ISW, Critical Threats)", "year": 2026, "published": "2026-10-26", "url": "https://www.criticalthreats.org/analysis/iran-update-october-26-2026", "accessed": "2026-10-29"},
+  {"id": "afp-dawn-2026-01-04", "title": "114 killed in week of attacks in Sudan’s Darfur: medical sources", "author": "AFP (Dawn)", "year": 2026, "published": "2026-01-04", "url": "https://www.dawn.com/news/1965071", "accessed": "2026-10-29"},
+  {"id": "aj-2026-02-07", "title": "RSF drone attack kills 24 displaced civilians fleeing war in Sudan", "author": "Al Jazeera", "year": 2026, "published": "2026-02-07", "url": "https://www.aljazeera.com/news/2026/2/7/un-us-condemn-rsf-drone-strikes-on-aid-deliveries-in-famine-hit-sudan", "accessed": "2026-10-29"},
+  {"id": "st-2026-08-27", "title": "Sudan army repels RSF attack in Blue Nile, local official says", "author": "Sudan Tribune", "year": 2026, "published": "2026-08-27", "url": "https://sudantribune.com/?p=317979", "accessed": "2026-10-29"},
+  {"id": "national-2026-03-28", "title": "Yemen's Houthis enter the Iran war with missile attacks on at Israel", "author": "The National", "year": 2026, "published": "2026-03-28", "url": "https://www.thenationalnews.com/news/mena/2026/03/28/yemens-houthis-enter-the-iran-war-with-launch-of-ballistic-missile-at-israel/", "accessed": "2026-10-29"},
+  {"id": "mee-2026-03-28", "title": "Yemen's Houthis launch first missile strike on Israel since Iran war began", "author": "Middle East Eye", "year": 2026, "published": "2026-03-28", "url": "https://www.middleeasteye.net/news/yemens-houthis-launch-first-missile-strike-israel-iran-war-began", "accessed": "2026-10-29"},
+  {"id": "hcl-cbp10521", "title": "Israel/US-Iran conflict 2026: Background and UK response (CBP-10521)", "author": "House of Commons Library", "year": 2026, "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/", "accessed": "2026-10-29"},
+  {"id": "aj-2026-06-15", "title": "How Pakistan mediated a US-Iran agreement after more than 100 days of war", "author": "Abid Hussain (Al Jazeera)", "year": 2026, "published": "2026-06-15", "url": "https://www.aljazeera.com/news/2026/6/15/how-pakistan-mediated-a-us-iran-agreement-after-more-than-100-days-of-war", "accessed": "2026-10-29"},
+  {"id": "national-2026-07-17", "title": "UAE condemns renewed Iranian attacks on Gulf neighbours and Jordan", "author": "The National", "year": 2026, "published": "2026-07-17", "url": "https://www.thenationalnews.com/news/uae/2026/07/17/uae-condemns-renewed-iranian-attacks-on-gulf-neighbours/", "accessed": "2026-10-29"},
+  {"id": "aj-2026-10-15", "title": "US-Iran stalemate: What are Trump’s next military options?", "author": "Nils Adler (Al Jazeera)", "year": 2026, "published": "2026-10-15", "url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options", "accessed": "2026-10-29"},
+  {"id": "reuters-kt-2026-04-10", "title": "40 days of war: How many people have been killed in US-Israel-Iran war?", "author": "Reuters (Khaleej Times)", "year": 2026, "published": "2026-04-10", "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-war-fatalities", "accessed": "2026-10-29"},
+  {"id": "ap-ajc-2026-04-20", "title": "Doubts over talks between Iran and US after violence flares in Strait of Hormuz", "author": "Munir Ahmed, Jon Gambrell, David Rising (The Associated Press)", "year": 2026, "published": "2026-04-20", "url": "https://www.ajc.com/news/2026/04/over-3300-people-have-died-in-iran-during-war/", "accessed": "2026-10-29"},
+  {"id": "ap-mt-2026-01-03", "title": "US strikes Venezuela, says Nicolás Maduro has been captured", "author": "Regina Garcia Cano, Konstantin Toropin (The Associated Press, Military Times)", "year": 2026, "published": "2026-01-03", "url": "https://www.militarytimes.com/news/your-military/2026/01/03/us-strikes-venezuela-says-nicolas-maduro-has-been-captured/", "accessed": "2026-10-29"},
+  {"id": "csis-2026-01-09", "title": "Imagery from Venezuela Shows a Surgical Strike, Not Shock and Awe", "author": "Ryan C. Berg, Mark F. Cancian, Joseph S. Bermudez Jr., Jennifer Jun, Henry Ziemer, Chris H. Park (CSIS)", "year": 2026, "published": "2026-01-09", "url": "https://www.csis.org/analysis/imagery-venezuela-shows-surgical-strike-not-shock-and-awe", "accessed": "2026-10-29"}
+ ]
+}

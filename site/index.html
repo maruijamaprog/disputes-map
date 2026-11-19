@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Спорные территории 1900–2026</title>
+  <meta name="description" content="Интерактивная карта спорных территорий и вооружённых конфликтов с 1900 года: фактический контроль, претензии сторон, позиции ООН и международных судов, история, источники.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%230072B2'/%3E%3Cpath d='M6 12h20M6 20h20M16 2c-6 7-6 21 0 28M16 2c6 7 6 21 0 28' stroke='%23fff' stroke-width='2' fill='none'/%3E%3C/svg%3E">
+  <script>
+    // тема до загрузки стилей, чтобы не было вспышки
+    try {
+      var p = JSON.parse(localStorage.getItem('dm_prefs_v2') || '{}'), th = p.theme || 'auto';
+      if (th === 'auto') th = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = th;
+    } catch (e) { /* ignore */ }
+  </script>
+  <link rel="stylesheet" href="vendor/maplibre-gl/maplibre-gl.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-mode="disputes">
+  <a class="skip-link" href="#search" data-i18n="nav.skip">Перейти к списку</a>
+
+  <div class="app">
+    <div id="map" role="region" data-i18n-attr="aria-label:map.label"></div>
+    <div id="map-error" class="map-error" hidden></div>
+    <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+
+    <!-- шапка сайта: название, режим, инструменты -->
+    <header class="appbar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <div class="brand-text">
+          <h1 data-i18n="app.title">Спорные территории</h1>
+          <p class="subtitle" data-i18n="app.subtitle">и вооружённые конфликты · с 1900 года</p>
+        </div>
+      </div>
+      <div class="mode-switch" role="radiogroup" data-i18n-attr="aria-label:mode.label">
+        <button type="button" role="radio" aria-checked="true" data-mode="disputes" data-icon="flag"><span data-i18n="mode.disputes">Споры</span></button>
+        <button type="button" role="radio" aria-checked="false" data-mode="wars" data-icon="swords"><span data-i18n="mode.wars">Военные конфликты</span></button>
+      </div>
+      <div class="toolbar" role="toolbar" data-i18n-attr="aria-label:toolbar.label">
+        <button type="button" id="btn-filters" class="tool" aria-haspopup="dialog" aria-expanded="false" aria-controls="pop-filters" data-icon="filter"><span data-i18n="filters.title">Фильтры</span></button>
+        <button type="button" id="btn-view" class="tool" aria-haspopup="dialog" aria-expanded="false" aria-controls="pop-view" data-icon="layers"><span data-i18n="view.title">Вид карты</span></button>
+        <div class="lang" role="group" data-i18n-attr="aria-label:lang.label">
+          <button type="button" data-lang="ru" aria-pressed="true">RU</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a id="link-methodology" class="tool icon-only" href="methodology.html" data-icon="book" data-i18n-attr="aria-label:nav.methodology;title:nav.methodology"></a>
+        <button type="button" id="btn-disclaimer" class="tool icon-only" data-icon="help" data-i18n-attr="aria-label:nav.disclaimer;title:nav.disclaimer"></button>
+      </div>
+    </header>
+
+    <!-- всплывающее окно: вид карты -->
+    <div id="pop-view" class="popover glass" role="dialog" aria-labelledby="pop-view-title" hidden>
+      <h2 id="pop-view-title" class="pop-title" data-i18n="view.title">Вид карты</h2>
+      <div class="theme-grid" role="radiogroup" data-i18n-attr="aria-label:view.theme">
+        <button type="button" role="radio" data-theme-choice="auto" aria-checked="true"><span class="th-sw th-auto"></span><span data-i18n="theme.auto">Как в системе</span></button>
+        <button type="button" role="radio" data-theme-choice="light" aria-checked="false"><span class="th-sw th-light"></span><span data-i18n="theme.light">Светлая</span></button>
+        <button type="button" role="radio" data-theme-choice="dark" aria-checked="false"><span class="th-sw th-dark"></span><span data-i18n="theme.dark">Тёмная</span></button>
+        <button type="button" role="radio" data-theme-choice="political" aria-checked="false"><span class="th-sw th-political"></span><span data-i18n="theme.political">Политическая</span></button>
+        <button type="button" role="radio" data-theme-choice="atlas" aria-checked="false"><span class="th-sw th-atlas"></span><span data-i18n="theme.atlas">Атлас</span></button>
+        <button type="button" role="radio" data-theme-choice="contrast" aria-checked="false"><span class="th-sw th-contrast"></span><span data-i18n="theme.contrast">Контрастная</span></button>
+      </div>
+      <div class="pop-row">
+        <label for="land-color" data-i18n="view.land">Свой цвет государств</label>
+        <span class="color-row"><input type="color" id="land-color" value="#f3f1ec"><button type="button" id="land-reset" class="linklike small" data-i18n="view.reset">сбросить</button></span>
+      </div>
+      <label class="switch"><input type="checkbox" id="chk-labels" checked> <span data-i18n="view.labels">Названия стран на карте</span></label>
+      <label class="switch"><input type="checkbox" id="chk-routes" checked> <span data-i18n="view.routes">Транспортные маршруты</span></label>
+    </div>
+
+    <!-- всплывающее окно: фильтры -->
+    <div id="pop-filters" class="popover glass" role="dialog" aria-labelledby="pop-filters-title" hidden>
+      <h2 id="pop-filters-title" class="pop-title" data-i18n="filters.title">Фильтры</h2>
+      <div id="filters-disputes">
+        <fieldset>
+          <legend data-i18n="filters.type">Тип спора</legend>
+          <div id="filter-types" class="chip-checks"></div>
+        </fieldset>
+        <fieldset>
+          <legend data-i18n="filters.status">Статус</legend>
+          <div class="seg-radios">
+            <label><input type="radio" name="status" value="all" checked> <span data-i18n="filters.status.all">Все</span></label>
+            <label><input type="radio" name="status" value="active"> <span data-i18n="filters.status.active">Действующие</span></label>
+            <label><input type="radio" name="status" value="resolved"> <span data-i18n="filters.status.resolved">Урегулированные</span></label>
+          </div>
+        </fieldset>
+        <label class="switch"><input type="checkbox" id="filter-lowconf" checked> <span data-i18n="filters.lowconf">Показывать записи с низкой уверенностью</span></label>
+      </div>
+      <p class="small muted" data-i18n="filters.wars.note"></p>
+    </div>
+
+    <!-- правая панель -->
+    <aside id="panel" class="panel glass" data-i18n-attr="aria-label:panel.label">
+      <div class="panel-grip" aria-hidden="true"></div>
+      <button type="button" id="btn-panel-close" class="icon-btn panel-close" data-icon="close" data-i18n-attr="aria-label:panel.close;title:panel.close"></button>
+      <div class="search-box">
+        <span class="search-ico" data-icon="search" aria-hidden="true"></span>
+        <input id="search" type="search" role="combobox" autocomplete="off" aria-autocomplete="list"
+               aria-controls="listbox" aria-expanded="true" data-i18n-attr="placeholder:list.search;aria-label:list.search">
+      </div>
+      <article id="card" class="card" hidden aria-live="polite"></article>
+      <section id="browse" class="browse" aria-labelledby="h-list">
+        <div class="browse-head">
+          <h2 id="h-list" data-i18n="list.title">Споры и стороны</h2>
+          <p id="list-count" class="muted small"></p>
+        </div>
+        <ul id="listbox" role="listbox" class="listbox" data-i18n-attr="aria-label:list.title"></ul>
+        <footer class="panel-footer muted small">
+          <p id="footer-version"></p>
+          <p data-i18n="footer.data"></p>
+        </footer>
+      </section>
+    </aside>
+
+    <!-- легенда: круглая кнопка «i» открывает и закрывает её -->
+    <section id="legend-box" class="legend-box" data-i18n-attr="aria-label:legend.title">
+      <button type="button" id="btn-legend" class="legend-btn" aria-expanded="true" aria-controls="legend-panel" data-icon="i" data-i18n-attr="aria-label:legend.toggle;title:legend.toggle"></button>
+      <div id="legend-panel" class="legend-panel glass">
+        <h2 class="legend-title" data-i18n="legend.title">Легенда</h2>
+        <ul class="legend" id="legend"></ul>
+      </div>
+    </section>
+
+    <!-- шкала времени -->
+    <div class="timeline glass" role="group" data-i18n-attr="aria-label:timeline.label">
+      <div class="tl-date">
+        <output id="tl-label" for="tl-range" aria-live="off">—</output>
+        <span id="tl-sub" class="tl-sub"></span>
+      </div>
+      <div class="tl-buttons">
+        <button type="button" id="btn-prev" class="icon-btn" data-icon="prev" data-i18n-attr="aria-label:timeline.prev;title:timeline.prev"></button>
+        <button type="button" id="btn-play" class="icon-btn play" aria-pressed="false" data-icon="play" data-i18n-attr="aria-label:timeline.play;title:timeline.play"></button>
+        <button type="button" id="btn-next" class="icon-btn" data-icon="next" data-i18n-attr="aria-label:timeline.next;title:timeline.next"></button>
+        <button type="button" id="btn-speed" class="speed" aria-pressed="false" data-i18n="timeline.speed.month" data-i18n-attr="title:timeline.speed.title">по месяцам</button>
+      </div>
+      <div class="tl-track">
+        <div class="tl-rail" aria-hidden="true"><div id="tl-fill" class="tl-fill"></div><div id="tl-events" class="tl-events"></div></div>
+        <label class="visually-hidden" for="tl-range" data-i18n="timeline.label">Дата</label>
+        <input id="tl-range" type="range" min="0" max="1521" step="1" value="1521">
+        <div id="tl-ticks" class="tl-ticks" aria-hidden="true"></div>
+      </div>
+      <div class="tl-jump">
+        <label class="visually-hidden" for="tl-month" data-i18n="timeline.month">Месяц</label>
+        <select id="tl-month"></select>
+        <label class="visually-hidden" for="tl-year" data-i18n="timeline.year">Год</label>
+        <input id="tl-year" type="number" inputmode="numeric" min="1900" max="2026" step="1">
+      </div>
+    </div>
+
+    <button type="button" id="btn-panel" class="panel-toggle glass" aria-controls="panel" aria-expanded="false" data-icon="list"><span data-i18n="panel.open">Список и карточки</span></button>
+  </div>
+
+  <div id="live" class="visually-hidden" aria-live="polite"></div>
+
+  <dialog id="disclaimer" aria-labelledby="disclaimer-title">
+    <h2 id="disclaimer-title" data-i18n="disclaimer.title">Об отображении территорий</h2>
+    <p data-i18n="disclaimer.text"></p>
+    <p data-i18n="disclaimer.wars"></p>
+    <form method="dialog"><button type="submit" class="primary" data-i18n="disclaimer.ok">Понятно</button></form>
+  </dialog>
+
+  <script src="vendor/maplibre-gl/maplibre-gl.js"></script>
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

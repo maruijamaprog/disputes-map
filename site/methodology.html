@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Источники и методология — Спорные территории 1900–2026</title>
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <style>
+    body { display: block; }
+    .doc { max-width: 820px; margin: 0 auto; padding: 16px 16px 48px; }
+    .doc h1 { font-size: 26px; margin: 16px 0 8px; }
+    .doc h2 { font-size: 19px; margin: 28px 0 8px; }
+    .doc table { border-collapse: collapse; width: 100%; font-size: 14px; display: block; overflow-x: auto; }
+    .doc th, .doc td { border: 1px solid var(--border); padding: 6px 8px; text-align: left; vertical-align: top; }
+    .doc th { background: var(--surface-2); }
+    .doc .note { background: var(--warn-bg); color: var(--warn-text); padding: 10px 12px; border-radius: 8px; }
+    .roles td:first-child { width: 48px; }
+    .sw { display: inline-block; width: 28px; height: 16px; border-radius: 3px; border: 1px solid var(--border); vertical-align: middle; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><a href="index.html" class="back" id="back">← <span class="ru">К карте</span><span class="en">Back to map</span></a></div>
+    <div class="lang" role="group" aria-label="Язык / Language">
+      <button type="button" data-lang="ru" aria-pressed="true">RU</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main class="doc">
+  <!-- ======================================================== RU -->
+  <article lang="ru" class="ru">
+    <h1>Источники и методология</h1>
+    <p class="note">Карта не выражает позиции авторов относительно правового статуса какой-либо территории, государства или органов власти. Она показывает фактический контроль и претензии сторон на выбранную дату по открытым источникам. Правовые позиции изложены в карточках, у каждого утверждения есть ссылки на источники.</p>
+
+    <h2>Что показывает карта</h2>
+    <p>Под картой лежит слой государств и колоний по CShapes 2.0 с датами действия границ. Спорные территории рисуются отдельным слоем поверх него. Пока ни одна страна не выбрана, они показаны нейтральной серой штриховкой. При наведении на страну или выборе её в списке зоны окрашиваются по роли этой страны:</p>
+    <table class="roles">
+      <tr><th></th><th>Роль</th><th>Условие на дату среза</th></tr>
+      <tr><td><span class="sw" style="background:var(--role-a)"></span></td><td>A</td><td>Сама выбранная страна</td></tr>
+      <tr><td><span class="sw" style="background:var(--role-b)"></span></td><td>B</td><td>Контролирует зону, на которую претендует другая сторона</td></tr>
+      <tr><td><span class="sw" style="background:repeating-linear-gradient(135deg,var(--role-c) 0 3px,transparent 3px 7px)"></span></td><td>C</td><td>Претендует, но не контролирует</td></tr>
+      <tr><td><span class="sw" style="background:repeating-linear-gradient(135deg,var(--role-b) 0 4px,var(--role-c) 4px 8px)"></span></td><td>D</td><td>Частичный контроль (зона поделена, линия соприкосновения не отображается)</td></tr>
+      <tr><td><span class="sw" style="background:repeating-linear-gradient(45deg,var(--role-e) 0 2px,transparent 2px 6px)"></span></td><td>E</td><td>Внешний эффективный контроль, установленный международным судом (например, ЕСПЧ), при том что на месте управляют власти де-факто</td></tr>
+      <tr><td><span class="sw" style="background:radial-gradient(var(--role-r) 30%,transparent 32%) 0 0/8px 8px"></span></td><td>R</td><td>Особые права без претензии на суверенитет</td></tr>
+    </table>
+    <p>Палитра Okabe–Ito различима при распространённых формах нарушения цветового зрения. Кроме того, у каждой роли свой узор, так что цвет не единственный признак.</p>
+
+    <h2>Время</h2>
+    <ul>
+      <li>Шкала помесячная: с января 1900 г. по текущий месяц. Положение показывается на последний день выбранного месяца, а для текущего месяца — на сегодняшнюю дату. Месяц и год можно выбрать в полях рядом со шкалой.</li>
+      <li>Спор отображается, если в течение месяца у него было хотя бы две активные стороны (претенденты, контролёры, внешний контроль). Поэтому видны и короткие эпизоды, например оккупация Кувейта в 1990–1991 гг.</li>
+      <li>Если контроль менялся внутри месяца, зона обведена пунктиром, а полная хронология приведена в карточке.</li>
+      <li>Если у даты указан только год, событие произошло в течение этого года. При нескольких полных контролёрах на дату показывается последний.</li>
+    </ul>
+
+    <h2>История конфликта</h2>
+    <p>В карточке спора есть вкладка «История»: основные события (смена контроля, договоры, решения судов и органов ООН) с датами. У каждого события есть ссылка на источник из списка этой записи; событие без источника не добавляется.</p>
+
+    <h2>Режим «Военные конфликты»</h2>
+    <ul>
+      <li>Красным закрашены государства, участвующие в вооружённых конфликтах в выбранный месяц. Насыщенный цвет — война (не менее 1000 погибших в боях за год), светлый — вооружённый конфликт (25–999), штриховка — поддержка одной из сторон войсками.</li>
+      <li>1900–1945 гг. — Correlates of War (только войны). 1946–2025 гг. — UCDP/PRIO Armed Conflict Dataset 26.1: конфликт учитывается в году, если в нём погибли в боях не менее 25 человек и одна из сторон — правительство.</li>
+      <li>2026 г. UCDP ещё не опубликовал. Конфликты, активные в 2025 г., продолжаются точечной заливкой с пометкой «не проверено», пока редакция не подтвердит или не закроет их не меньше чем по двум независимым источникам. Новые конфликты 2026 г. добавлены так же, по источникам. После выхода данных UCDP за 2026 г. все решения будут сверены.</li>
+      <li>В карточке государства перечислены конфликты на выбранную дату: противоположная сторона, роль (основная сторона или поддержка) и вид конфликта (межгосударственный, внутренний, интернационализированный внутренний, колониальный).</li>
+      <li>Государства, по территории которых наносились удары, не закрашиваются, если источники не называют их сторонами конфликта.</li>
+    </ul>
+
+    <h2>Дипломатические отношения</h2>
+    <p>Открытого надёжного перечня всех двусторонних дипломатических отношений нет: свойство Wikidata P530 отмечает связи вообще, а не установленные отношения. Поэтому в карточке государства показываются только проверенные сведения: признание (например, число государств, признающих Тайвань или Палестину) и пары государств без отношений — с датой разрыва, источниками и датой самого свежего источника. Если текущее положение давно не подтверждалось, стоит пометка «требует проверки». Отсутствие пары в списке не означает, что отношения есть.</p>
+
+    <h2>Транспортные маршруты</h2>
+    <p>Слой включается в меню «Вид карты». Показаны шесть коридоров: Северный морской путь, TRACECA, МТК «Север – Юг», Средний коридор (ТМТМ), IMEC и TRIPP. Маршрут появляется на карте с даты учредительного документа или объявления — пунктиром — и становится сплошным с первой реальной перевозки. Участок, который ещё не построен (например, железная дорога Решт – Астара), всегда показан пунктиром. Линии — схема: они проведены через порты, станции и пограничные пункты, названные в источниках; координаты узлов приблизительные, морские участки проверены на пересечение с сушей. В справке — участники, ветви, пропускная способность и планы, фактические перевозки по годам. Цифры разных ведомств часто считаются по-разному (например, только транзит или все перевозки), поэтому у каждой указано, кто и как считает; цифры из одного источника помечены.</p>
+
+    <h2>Оформление</h2>
+    <p>Цвет карты выбирается в меню «Вид карты»: светлая, тёмная, политическая (соседние государства разного цвета), атлас, контрастная или свой цвет государств. Там же включаются и выключаются подписи стран. Цвета ролей и узоры от темы не зависят.</p>
+
+    <h2>Какие споры включаются</h2>
+    <ul>
+      <li>Межгосударственная претензия: официальные лица явно оспаривают суверенитет над конкретной территорией (по логике датасета ICOW).</li>
+      <li>Отделение: образование провозгласило независимость и фактически контролирует территорию.</li>
+      <li>Квалификация органом ООН или Лиги Наций либо международным судом (оккупация, ничтожная аннексия, несамоуправляющаяся территория со спорным суверенитетом).</li>
+      <li>Перекрывающиеся морские претензии.</li>
+    </ul>
+    <p>Не включаются военный контроль без территориальной претензии и внутренние административные споры.</p>
+
+    <h2>Проверка фактов</h2>
+    <ul>
+      <li>У каждого ключевого утверждения (начало и конец периода, стороны, фактический контроль, правовой статус) не меньше двух независимых источников. Документы ГА и СБ ООН считаются одним автором.</li>
+      <li>Позиция каждой стороны подкреплена документом самой этой стороны.</li>
+      <li>Тип «оккупация» указывается только вместе с актом международного органа, который так квалифицирует ситуацию.</li>
+      <li>Номер страницы указывается только если прочитан сам текст источника. У источников, по которым видно лишь описание, стоит пометка.</li>
+      <li>Википедия используется только как путеводитель и в источниках не указывается.</li>
+      <li>Расхождения между источниками не сглаживаются: они перечислены в карточке в разделе «Открытые вопросы».</li>
+    </ul>
+
+    <h2>Нейтральность формулировок</h2>
+    <ul>
+      <li>Описания пишутся без оценочных слов. Оценки сторон приводятся только в разделе «Позиции сторон», со ссылкой на документ этой стороны.</li>
+      <li>Образования де-факто называются по самоназванию с пометкой статуса, без кавычек.</li>
+      <li>Для каждой территории указываются альтернативные топонимы и стороны, которые их используют.</li>
+    </ul>
+
+    <h2>Геоданные и лицензии</h2>
+    <table>
+      <tr><th>Слой</th><th>Источник</th><th>Лицензия</th></tr>
+      <tr><td>Государства и колонии по годам</td><td>CShapes 2.0 — Schvitz, Girardin, Rüegger, Weidmann, Cederman, Gleditsch (ETH Zürich). Границы с 1886 по 2019 г.; единицы, действующие на конец 2019 г., продлены до наших дней.</td><td>CC BY-NC 4.0</td></tr>
+      <tr><td>Суша (подложка), современные спорные зоны, регионы</td><td>Natural Earth 5.1 (1:10m, 1:50m)</td><td>общественное достояние</td></tr>
+      <tr><td>Библиотека карты</td><td>MapLibre GL JS 5.24</td><td>BSD-3-Clause</td></tr>
+      <tr><td>Вооружённые конфликты 1946–2025</td><td>UCDP/PRIO Armed Conflict Dataset 26.1 (Uppsala Conflict Data Program, PRIO; Gleditsch et al. 2002; Davies et al. 2025)</td><td>CC BY 4.0</td></tr>
+      <tr><td>Войны 1900–1945</td><td>Correlates of War: Inter-State, Extra-State War Data v4.0, Intra-State War Data v5.1. Цитирование по просьбе проекта: Sarkees, Meredith Reid and Frank Wayman (2010). Resort to War: 1816 – 2007. Washington DC: CQ Press. Внутренние войны — также Dixon, Sarkees, A Guide to Intra-State Wars (2016)</td><td>условия проекта Correlates of War; публикуется с письменного разрешения проекта</td></tr>
+      <tr><td>Названия государств</td><td>Wikidata</td><td>CC0</td></tr>
+      <tr><td>Транспортные маршруты: тексты, даты, цифры, схема линий</td><td>Маруся Малафеева по источникам, указанным в карточках; проверка линий — по Natural Earth</td><td>CC BY 4.0</td></tr>
+      <tr><td>Шрифт подписей</td><td>Noto Sans</td><td>SIL OFL 1.1</td></tr>
+      <tr><td>Тексты и метаданные споров, решения по 2026 г., сведения о дипотношениях</td><td>Авторы проекта</td><td>CC BY 4.0</td></tr>
+      <tr><td>Код сайта</td><td>Авторы проекта</td><td>MIT</td></tr>
+    </table>
+    <p>Из-за лицензии CShapes сайт целиком распространяется на некоммерческих условиях. Геометрия упрощена алгоритмом Висвалингам с сохранением общих границ. У каждой зоны в карточке указаны источник и точность полигона: обобщённая, вычисленная или приблизительная. Сами мы границы не рисуем.</p>
+
+    <h2>Известные ограничения</h2>
+    <ul>
+      <li>Колонии в CShapes — отдельные единицы. При наведении на метрополию её колонии не подсвечиваются.</li>
+      <li>Территории, которых нет в CShapes 2.0 на выбранную дату (например, Гренландия, Антарктида, микрогосударства), не закрашены. При наведении на них показывается справка: название и современный статус по Natural Earth.</li>
+      <li>Русские названия исторических единиц CShapes — редакционный перевод.</li>
+      <li>Транспортные маршруты нарисованы схематично и не повторяют реальные трассы железных дорог и судов. По TRACECA сводной статистики перевозок в открытых источниках нет.</li>
+      <li>Линии соприкосновения в текущих конфликтах не отображаются: открытых данных с совместимой лицензией нет. Используется роль «частичный контроль».</li>
+      <li>Часть контуров приблизительна (бывшая НКАО, Эльзас-Лотарингия, «Польский коридор», Верхняя Силезия, Восточная Славония): это указано в карточках. Исторические зоны вычислены из срезов CShapes и могут заметно отличаться по площади от реальных.</li>
+      <li>Некоторые споры на карте не показаны, потому что нет открытой геометрии (Заользье, Превлака, Эгейское море). Они есть в списке и в карточках.</li>
+      <li>Проверено 35 споров (три партии). Остальные добавляются партиями после проверки.</li>
+      <li>Режим «Военные конфликты» показывает конфликты с участием правительств; столкновения между негосударственными группировками и одностороннее насилие не отображаются.</li>
+    </ul>
+
+    <h2>Как процитировать</h2>
+    <p>Малафеева М. «Спорные территории 1900–2026: интерактивная карта», версия 1 (2026). Данные: CShapes 2.0 (ETH Zürich, CC BY-NC 4.0), Natural Earth, UCDP/PRIO Armed Conflict Dataset 26.1 (CC BY 4.0), Correlates of War.</p>
+  </article>
+
+  <!-- ======================================================== EN -->
+  <article lang="en" class="en" hidden>
+    <h1>Sources &amp; methodology</h1>
+    <p class="note">This map does not imply any position of the authors on the legal status of any territory, state or authority. It shows de facto control and the parties' claims on the selected date, based on open sources. Legal positions are set out in the detail cards, and every statement is referenced.</p>
+
+    <h2>What the map shows</h2>
+    <p>The base layer shows states and colonies from CShapes 2.0, each with the dates its borders were valid. Disputed areas are drawn as a separate layer on top. With no country selected, they appear in a neutral grey hatch. Hovering over a country, or picking it in the list, colours each area by that country's role:</p>
+    <table class="roles">
+      <tr><th></th><th>Role</th><th>Condition on the reference date</th></tr>
+      <tr><td><span class="sw" style="background:var(--role-a)"></span></td><td>A</td><td>The selected country itself</td></tr>
+      <tr><td><span class="sw" style="background:var(--role-b)"></span></td><td>B</td><td>Controls an area claimed by another party</td></tr>
+      <tr><td><span class="sw" style="background:repeating-linear-gradient(135deg,var(--role-c) 0 3px,transparent 3px 7px)"></span></td><td>C</td><td>Claims but does not control</td></tr>
+      <tr><td><span class="sw" style="background:repeating-linear-gradient(135deg,var(--role-b) 0 4px,var(--role-c) 4px 8px)"></span></td><td>D</td><td>Partial control (area divided; the line of contact is not drawn)</td></tr>
+      <tr><td><span class="sw" style="background:repeating-linear-gradient(45deg,var(--role-e) 0 2px,transparent 2px 6px)"></span></td><td>E</td><td>External effective control found by an international court (e.g. the ECtHR) while de facto authorities administer the area</td></tr>
+      <tr><td><span class="sw" style="background:radial-gradient(var(--role-r) 30%,transparent 32%) 0 0/8px 8px"></span></td><td>R</td><td>Special rights without a sovereignty claim</td></tr>
+    </table>
+    <p>The Okabe–Ito palette is distinguishable with common colour-vision deficiencies. Each role also has its own pattern, so colour is never the only cue.</p>
+
+    <h2>Time</h2>
+    <ul>
+      <li>The slider runs month by month, from January 1900 to the current month. The map shows the situation on the last day of the selected month, or today's date for the current month. The month and year can also be picked in the fields next to the slider.</li>
+      <li>A dispute is shown if at least two parties (claimants, controllers or an external controller) were active at some point in that month. This keeps short episodes visible, such as the occupation of Kuwait in 1990–1991.</li>
+      <li>If control changed during the month, the area gets a dashed outline, and the card gives the full timeline.</li>
+      <li>A date given as a year only means the event happened during that year. If several full controllers overlap on the reference date, the most recent one is shown.</li>
+    </ul>
+
+    <h2>Conflict history</h2>
+    <p>Each dispute card has a "History" tab with the main events (changes of control, treaties, court and UN decisions) and their dates. Every event links to a source from that record; an event without a source is not added.</p>
+
+    <h2>"Armed conflicts" mode</h2>
+    <ul>
+      <li>States involved in armed conflicts in the selected month are shaded red. Solid colour means war (at least 1,000 battle deaths a year), light colour means armed conflict (25–999), and hatching means supporting one side with troops.</li>
+      <li>1900–1945: Correlates of War (wars only). 1946–2025: UCDP/PRIO Armed Conflict Dataset 26.1, which counts a conflict-year when at least 25 battle deaths occur and one side is a government.</li>
+      <li>UCDP has not yet published 2026. Conflicts active in 2025 continue as a dotted fill marked "unverified" until the editors confirm or close them using at least two independent sources. New 2026 conflicts are added the same way. All decisions will be checked against UCDP once its 2026 data is out.</li>
+      <li>A country's card lists its conflicts on the selected date: the opposing side, its role (main party or supporting) and the conflict type (interstate, intrastate, internationalized intrastate, extrastate).</li>
+      <li>States whose territory was struck are not shaded unless the sources name them as parties to the conflict.</li>
+    </ul>
+
+    <h2>Diplomatic relations</h2>
+    <p>No reliable open list of all bilateral diplomatic relations exists: the Wikidata property P530 records ties in general, not established relations. A country's card therefore shows only verified facts: recognition (for example, how many states recognise Taiwan or Palestine) and pairs of states without relations, with the date relations were cut, the sources and the date of the latest confirming source. Where the current situation has not been confirmed recently, the entry is marked "needs review". A pair missing from the list does not mean that relations exist.</p>
+
+    <h2>Transport routes</h2>
+    <p>The layer is switched on in the "Map view" menu. Six corridors are shown: the Northern Sea Route, TRACECA, the International North–South Transport Corridor, the Middle Corridor (TITR), IMEC and TRIPP. A route appears on the map from the date of its founding document or announcement as a dashed line and becomes solid from the first actual shipment. A section that has not been built yet (for example, the Rasht–Astara railway) is always dashed. Lines are schematic: they run through ports, stations and border crossings named in the sources; node coordinates are approximate, and sea sections are checked against land. The detail card gives the parties, branches, capacity and targets, and actual traffic by year. Figures from different agencies are often counted differently (for example, transit only or all shipments), so each figure says who counts it and how; single-source figures are marked.</p>
+
+    <h2>Appearance</h2>
+    <p>The map colour is set in the "Map view" menu: light, dark, political (neighbouring states in different colours), atlas, high contrast or a custom colour for states. Country labels are switched on and off there too. Role colours and patterns do not depend on the theme.</p>
+
+    <h2>Inclusion criteria</h2>
+    <ul>
+      <li>Interstate claim: officials explicitly contest sovereignty over a specific territory (following the ICOW dataset).</li>
+      <li>Secession: an entity has declared independence and holds territory.</li>
+      <li>Qualification by a UN or League of Nations body, or by an international court (occupation, null and void annexation, non-self-governing territory with contested sovereignty).</li>
+      <li>Overlapping maritime claims.</li>
+    </ul>
+    <p>Excluded: military control without a territorial claim, and internal administrative disputes.</p>
+
+    <h2>Fact-checking</h2>
+    <ul>
+      <li>Every key statement (start and end of the period, parties, de facto control, legal status) rests on at least two independent sources. UN General Assembly and Security Council documents count as one author.</li>
+      <li>Each party's position is backed by that party's own document.</li>
+      <li>"Occupation" is used only together with the act of an international body that qualifies the situation that way.</li>
+      <li>Page numbers are given only where the full text was read. Sources seen only through an abstract are marked as such.</li>
+      <li>Wikipedia is used as a guide only and is never cited.</li>
+      <li>Conflicting sources are not smoothed over. The discrepancies are listed under "Open questions" in each card.</li>
+    </ul>
+
+    <h2>Neutral wording</h2>
+    <ul>
+      <li>Summaries avoid evaluative words. The parties' own assessments appear only under "Positions of the parties", each with a reference to that party's document.</li>
+      <li>De facto entities are named by their self-designation plus a status note, without quotation marks.</li>
+      <li>Each territory lists its alternative place names and the parties that use them.</li>
+    </ul>
+
+    <h2>Geodata and licences</h2>
+    <table>
+      <tr><th>Layer</th><th>Source</th><th>Licence</th></tr>
+      <tr><td>States and colonies over time</td><td>CShapes 2.0 — Schvitz, Girardin, Rüegger, Weidmann, Cederman, Gleditsch (ETH Zürich). Borders from 1886 to 2019; units still valid at the end of 2019 are extended to the present.</td><td>CC BY-NC 4.0</td></tr>
+      <tr><td>Land (base), current disputed areas, regions</td><td>Natural Earth 5.1 (1:10m, 1:50m)</td><td>public domain</td></tr>
+      <tr><td>Map library</td><td>MapLibre GL JS 5.24</td><td>BSD-3-Clause</td></tr>
+      <tr><td>Armed conflicts 1946–2025</td><td>UCDP/PRIO Armed Conflict Dataset 26.1 (Uppsala Conflict Data Program, PRIO; Gleditsch et al. 2002; Davies et al. 2025)</td><td>CC BY 4.0</td></tr>
+      <tr><td>Wars 1900–1945</td><td>Correlates of War: Inter-State and Extra-State War Data v4.0, Intra-State War Data v5.1. Cited as requested by the project: Sarkees, Meredith Reid and Frank Wayman (2010). Resort to War: 1816 – 2007. Washington DC: CQ Press. Intra-state wars also: Dixon &amp; Sarkees, A Guide to Intra-State Wars (2016)</td><td>Correlates of War terms; published with the project's written permission</td></tr>
+      <tr><td>State names</td><td>Wikidata</td><td>CC0</td></tr>
+      <tr><td>Transport routes: texts, dates, figures, schematic lines</td><td>Marusya Malafeeva, from the sources listed in the cards; lines checked against Natural Earth</td><td>CC BY 4.0</td></tr>
+      <tr><td>Label font</td><td>Noto Sans</td><td>SIL OFL 1.1</td></tr>
+      <tr><td>Dispute texts and metadata, 2026 decisions, diplomatic facts</td><td>Project authors</td><td>CC BY 4.0</td></tr>
+      <tr><td>Site code</td><td>Project authors</td><td>MIT</td></tr>
+    </table>
+    <p>Because of the CShapes licence, the site as a whole is distributed on non-commercial terms. Geometry is simplified with the Visvalingam algorithm, keeping shared borders intact. Each area's card gives the polygon source and its precision: generalized, derived or approximate. We do not draw any boundaries ourselves.</p>
+
+    <h2>Known limitations</h2>
+    <ul>
+      <li>CShapes treats colonies as separate units, so hovering over a metropole does not highlight its colonies.</li>
+      <li>Territories absent from CShapes 2.0 on the selected date (for example Greenland, Antarctica, microstates) are not coloured. Hovering over them shows a reference note: the name and present-day status per Natural Earth.</li>
+      <li>Russian names of historical CShapes units are editorial translations.</li>
+      <li>Transport routes are schematic and do not follow actual rail lines or shipping tracks. No consolidated traffic statistics for TRACECA were found in open sources.</li>
+      <li>Lines of contact in ongoing conflicts are not drawn: no open data with a compatible licence exists. The "partial control" role is used instead.</li>
+      <li>Some outlines are approximate (the former Nagorno-Karabakh Autonomous Oblast, Alsace-Lorraine, the "Polish Corridor", Upper Silesia, Eastern Slavonia); the cards say so. Historical zones are derived from CShapes time slices and their area can differ noticeably from the real one.</li>
+      <li>Some disputes are not drawn on the map because no open geometry exists (Zaolzie, Prevlaka, the Aegean). They are in the list and have cards.</li>
+      <li>35 disputes have been verified so far (three batches). The rest are added in batches after verification.</li>
+      <li>The "Armed conflicts" mode covers conflicts involving governments; fighting between non-state groups and one-sided violence are not shown.</li>
+    </ul>
+
+    <h2>How to cite</h2>
+    <p>Malafeeva, M. "Disputed Territories 1900–2026: interactive map", version 1 (2026). Data: CShapes 2.0 (ETH Zürich, CC BY-NC 4.0), Natural Earth, UCDP/PRIO Armed Conflict Dataset 26.1 (CC BY 4.0), Correlates of War.</p>
+  </article>
+  </main>
+
+  <script>
+    (function () {
+      var h = new URLSearchParams(location.hash.slice(1)).get('lang');
+      var lang = h || ((navigator.language || 'ru').toLowerCase().indexOf('ru') === 0 ? 'ru' : 'en');
+      function set(l) {
+        document.documentElement.lang = l;
+        document.querySelectorAll('article').forEach(function (a) { a.hidden = a.lang !== l; });
+        document.querySelectorAll('.back .ru').forEach(function (s) { s.hidden = l !== 'ru'; });
+        document.querySelectorAll('.back .en').forEach(function (s) { s.hidden = l !== 'en'; });
+        document.querySelectorAll('.lang button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.lang === l)); });
+        document.title = l === 'ru' ? 'Источники и методология — Спорные территории 1900–2026' : 'Sources & methodology — Disputed Territories 1900–2026';
+        document.getElementById('back').href = 'index.html#lang=' + l;
+        history.replaceState(null, '', '#lang=' + l);
+      }
+      document.querySelectorAll('.lang button').forEach(function (b) { b.addEventListener('click', function () { set(b.dataset.lang); }); });
+      set(lang === 'en' ? 'en' : 'ru');
+      window.addEventListener('hashchange', function () {
+        var l = new URLSearchParams(location.hash.slice(1)).get('lang');
+        if (l === 'ru' || l === 'en') set(l);
+      });
+    })();
+  </script>
+</body>
+</html>

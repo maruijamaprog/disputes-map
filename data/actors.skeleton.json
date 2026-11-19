@@ -1,0 +1,2468 @@
+{
+  "meta": {
+    "status": "skeleton",
+    "note_ru": "Коды GW и даты действия будут заполнены на этапе 3 при сопоставлении с CShapes 2.0"
+  },
+  "actors": [
+    {
+      "code": "AFG",
+      "type": "state",
+      "names": {
+        "ru": "Афганистан",
+        "en": "Afghanistan"
+      },
+      "gw_code": null,
+      "iso_a3": "AFG",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "ALB",
+      "type": "state",
+      "names": {
+        "ru": "Албания",
+        "en": "Albania"
+      },
+      "gw_code": null,
+      "iso_a3": "ALB",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "ARE",
+      "type": "state",
+      "names": {
+        "ru": "ОАЭ",
+        "en": "United Arab Emirates"
+      },
+      "gw_code": null,
+      "iso_a3": "ARE",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "ARG",
+      "type": "state",
+      "names": {
+        "ru": "Аргентина",
+        "en": "Argentina"
+      },
+      "gw_code": null,
+      "iso_a3": "ARG",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "ARM",
+      "type": "state",
+      "names": {
+        "ru": "Армения",
+        "en": "Armenia"
+      },
+      "gw_code": null,
+      "iso_a3": "ARM",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "AUS",
+      "type": "state",
+      "names": {
+        "ru": "Австралия",
+        "en": "Australia"
+      },
+      "gw_code": null,
+      "iso_a3": "AUS",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "AUT",
+      "type": "state",
+      "names": {
+        "ru": "Австрия",
+        "en": "Austria"
+      },
+      "gw_code": null,
+      "iso_a3": "AUT",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "AZE",
+      "type": "state",
+      "names": {
+        "ru": "Азербайджан",
+        "en": "Azerbaijan"
+      },
+      "gw_code": null,
+      "iso_a3": "AZE",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "BGD",
+      "type": "state",
+      "names": {
+        "ru": "Бангладеш",
+        "en": "Bangladesh"
+      },
+      "gw_code": null,
+      "iso_a3": "BGD",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "BHR",
+      "type": "state",
+      "names": {
+        "ru": "Бахрейн",
+        "en": "Bahrain"
+      },
+      "gw_code": null,
+      "iso_a3": "BHR",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "BLZ",
+      "type": "state",
+      "names": {
+        "ru": "Белиз",
+        "en": "Belize"
+      },
+      "gw_code": null,
+      "iso_a3": "BLZ",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "BOL",
+      "type": "state",
+      "names": {
+        "ru": "Боливия",
+        "en": "Bolivia"
+      },
+      "gw_code": null,
+      "iso_a3": "BOL",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "BRA",
+      "type": "state",
+      "names": {
+        "ru": "Бразилия",
+        "en": "Brazil"
+      },
+      "gw_code": null,
+      "iso_a3": "BRA",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "BRN",
+      "type": "state",
+      "names": {
+        "ru": "Бруней",
+        "en": "Brunei"
+      },
+      "gw_code": null,
+      "iso_a3": "BRN",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "BTN",
+      "type": "state",
+      "names": {
+        "ru": "Бутан",
+        "en": "Bhutan"
+      },
+      "gw_code": null,
+      "iso_a3": "BTN",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "BWA",
+      "type": "state",
+      "names": {
+        "ru": "Ботсвана",
+        "en": "Botswana"
+      },
+      "gw_code": null,
+      "iso_a3": "BWA",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "CAN",
+      "type": "state",
+      "names": {
+        "ru": "Канада",
+        "en": "Canada"
+      },
+      "gw_code": null,
+      "iso_a3": "CAN",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "CHL",
+      "type": "state",
+      "names": {
+        "ru": "Чили",
+        "en": "Chile"
+      },
+      "gw_code": null,
+      "iso_a3": "CHL",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "CHN",
+      "type": "state",
+      "names": {
+        "ru": "Китай (Китайская Республика до 1949; КНР с 1949)",
+        "en": "China (Republic of China until 1949; PRC since 1949)"
+      },
+      "gw_code": null,
+      "iso_a3": "CHN",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "CMR",
+      "type": "state",
+      "names": {
+        "ru": "Камерун",
+        "en": "Cameroon"
+      },
+      "gw_code": null,
+      "iso_a3": "CMR",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "COD",
+      "type": "state",
+      "names": {
+        "ru": "ДР Конго",
+        "en": "DR Congo"
+      },
+      "gw_code": null,
+      "iso_a3": "COD",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "COL",
+      "type": "state",
+      "names": {
+        "ru": "Колумбия",
+        "en": "Colombia"
+      },
+      "gw_code": null,
+      "iso_a3": "COL",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "COM",
+      "type": "state",
+      "names": {
+        "ru": "Коморы",
+        "en": "Comoros"
+      },
+      "gw_code": null,
+      "iso_a3": "COM",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "CRI",
+      "type": "state",
+      "names": {
+        "ru": "Коста-Рика",
+        "en": "Costa Rica"
+      },
+      "gw_code": null,
+      "iso_a3": "CRI",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "CSK",
+      "type": "state",
+      "names": {
+        "ru": "Чехословакия",
+        "en": "Czechoslovakia"
+      },
+      "gw_code": null,
+      "iso_a3": "CSK",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "CUB",
+      "type": "state",
+      "names": {
+        "ru": "Куба",
+        "en": "Cuba"
+      },
+      "gw_code": null,
+      "iso_a3": "CUB",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "CYP",
+      "type": "state",
+      "names": {
+        "ru": "Кипр",
+        "en": "Cyprus"
+      },
+      "gw_code": null,
+      "iso_a3": "CYP",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "DEU",
+      "type": "state",
+      "names": {
+        "ru": "Германия",
+        "en": "Germany"
+      },
+      "gw_code": null,
+      "iso_a3": "DEU",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "DMA",
+      "type": "state",
+      "names": {
+        "ru": "Доминика",
+        "en": "Dominica"
+      },
+      "gw_code": null,
+      "iso_a3": "DMA",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "DNK",
+      "type": "state",
+      "names": {
+        "ru": "Дания",
+        "en": "Denmark"
+      },
+      "gw_code": null,
+      "iso_a3": "DNK",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "ECU",
+      "type": "state",
+      "names": {
+        "ru": "Эквадор",
+        "en": "Ecuador"
+      },
+      "gw_code": null,
+      "iso_a3": "ECU",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "EGY",
+      "type": "state",
+      "names": {
+        "ru": "Египет",
+        "en": "Egypt"
+      },
+      "gw_code": null,
+      "iso_a3": "EGY",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "ERI",
+      "type": "state",
+      "names": {
+        "ru": "Эритрея",
+        "en": "Eritrea"
+      },
+      "gw_code": null,
+      "iso_a3": "ERI",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "ESP",
+      "type": "state",
+      "names": {
+        "ru": "Испания",
+        "en": "Spain"
+      },
+      "gw_code": null,
+      "iso_a3": "ESP",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "EST",
+      "type": "state",
+      "names": {
+        "ru": "Эстония",
+        "en": "Estonia"
+      },
+      "gw_code": null,
+      "iso_a3": "EST",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "ETH",
+      "type": "state",
+      "names": {
+        "ru": "Эфиопия",
+        "en": "Ethiopia"
+      },
+      "gw_code": null,
+      "iso_a3": "ETH",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "FIN",
+      "type": "state",
+      "names": {
+        "ru": "Финляндия",
+        "en": "Finland"
+      },
+      "gw_code": null,
+      "iso_a3": "FIN",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "FJI",
+      "type": "state",
+      "names": {
+        "ru": "Фиджи",
+        "en": "Fiji"
+      },
+      "gw_code": null,
+      "iso_a3": "FJI",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "FRA",
+      "type": "state",
+      "names": {
+        "ru": "Франция",
+        "en": "France"
+      },
+      "gw_code": null,
+      "iso_a3": "FRA",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "GAB",
+      "type": "state",
+      "names": {
+        "ru": "Габон",
+        "en": "Gabon"
+      },
+      "gw_code": null,
+      "iso_a3": "GAB",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "GBR",
+      "type": "state",
+      "names": {
+        "ru": "Великобритания",
+        "en": "United Kingdom"
+      },
+      "gw_code": null,
+      "iso_a3": "GBR",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "GEO",
+      "type": "state",
+      "names": {
+        "ru": "Грузия",
+        "en": "Georgia"
+      },
+      "gw_code": null,
+      "iso_a3": "GEO",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "GNQ",
+      "type": "state",
+      "names": {
+        "ru": "Экваториальная Гвинея",
+        "en": "Equatorial Guinea"
+      },
+      "gw_code": null,
+      "iso_a3": "GNQ",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "GRC",
+      "type": "state",
+      "names": {
+        "ru": "Греция",
+        "en": "Greece"
+      },
+      "gw_code": null,
+      "iso_a3": "GRC",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "GTM",
+      "type": "state",
+      "names": {
+        "ru": "Гватемала",
+        "en": "Guatemala"
+      },
+      "gw_code": null,
+      "iso_a3": "GTM",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "GUY",
+      "type": "state",
+      "names": {
+        "ru": "Гайана",
+        "en": "Guyana"
+      },
+      "gw_code": null,
+      "iso_a3": "GUY",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "HND",
+      "type": "state",
+      "names": {
+        "ru": "Гондурас",
+        "en": "Honduras"
+      },
+      "gw_code": null,
+      "iso_a3": "HND",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "HRV",
+      "type": "state",
+      "names": {
+        "ru": "Хорватия",
+        "en": "Croatia"
+      },
+      "gw_code": null,
+      "iso_a3": "HRV",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "HTI",
+      "type": "state",
+      "names": {
+        "ru": "Гаити",
+        "en": "Haiti"
+      },
+      "gw_code": null,
+      "iso_a3": "HTI",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "HUN",
+      "type": "state",
+      "names": {
+        "ru": "Венгрия",
+        "en": "Hungary"
+      },
+      "gw_code": null,
+      "iso_a3": "HUN",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "IDN",
+      "type": "state",
+      "names": {
+        "ru": "Индонезия",
+        "en": "Indonesia"
+      },
+      "gw_code": null,
+      "iso_a3": "IDN",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "IND",
+      "type": "state",
+      "names": {
+        "ru": "Индия",
+        "en": "India"
+      },
+      "gw_code": null,
+      "iso_a3": "IND",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "IRL",
+      "type": "state",
+      "names": {
+        "ru": "Ирландия",
+        "en": "Ireland"
+      },
+      "gw_code": null,
+      "iso_a3": "IRL",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "IRN",
+      "type": "state",
+      "names": {
+        "ru": "Иран",
+        "en": "Iran"
+      },
+      "gw_code": null,
+      "iso_a3": "IRN",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "IRQ",
+      "type": "state",
+      "names": {
+        "ru": "Ирак",
+        "en": "Iraq"
+      },
+      "gw_code": null,
+      "iso_a3": "IRQ",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "ISL",
+      "type": "state",
+      "names": {
+        "ru": "Исландия",
+        "en": "Iceland"
+      },
+      "gw_code": null,
+      "iso_a3": "ISL",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "ISR",
+      "type": "state",
+      "names": {
+        "ru": "Израиль",
+        "en": "Israel"
+      },
+      "gw_code": null,
+      "iso_a3": "ISR",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "ITA",
+      "type": "state",
+      "names": {
+        "ru": "Италия",
+        "en": "Italy"
+      },
+      "gw_code": null,
+      "iso_a3": "ITA",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "JOR",
+      "type": "state",
+      "names": {
+        "ru": "Иордания",
+        "en": "Jordan"
+      },
+      "gw_code": null,
+      "iso_a3": "JOR",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "JPN",
+      "type": "state",
+      "names": {
+        "ru": "Япония",
+        "en": "Japan"
+      },
+      "gw_code": null,
+      "iso_a3": "JPN",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "KAZ",
+      "type": "state",
+      "names": {
+        "ru": "Казахстан",
+        "en": "Kazakhstan"
+      },
+      "gw_code": null,
+      "iso_a3": "KAZ",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "KEN",
+      "type": "state",
+      "names": {
+        "ru": "Кения",
+        "en": "Kenya"
+      },
+      "gw_code": null,
+      "iso_a3": "KEN",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "KGZ",
+      "type": "state",
+      "names": {
+        "ru": "Кыргызстан",
+        "en": "Kyrgyzstan"
+      },
+      "gw_code": null,
+      "iso_a3": "KGZ",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "KHM",
+      "type": "state",
+      "names": {
+        "ru": "Камбоджа",
+        "en": "Cambodia"
+      },
+      "gw_code": null,
+      "iso_a3": "KHM",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "KOR",
+      "type": "state",
+      "names": {
+        "ru": "Республика Корея",
+        "en": "Republic of Korea"
+      },
+      "gw_code": null,
+      "iso_a3": "KOR",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "KWT",
+      "type": "state",
+      "names": {
+        "ru": "Кувейт",
+        "en": "Kuwait"
+      },
+      "gw_code": null,
+      "iso_a3": "KWT",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "LBN",
+      "type": "state",
+      "names": {
+        "ru": "Ливан",
+        "en": "Lebanon"
+      },
+      "gw_code": null,
+      "iso_a3": "LBN",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "LBY",
+      "type": "state",
+      "names": {
+        "ru": "Ливия",
+        "en": "Libya"
+      },
+      "gw_code": null,
+      "iso_a3": "LBY",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "LKA",
+      "type": "state",
+      "names": {
+        "ru": "Шри-Ланка",
+        "en": "Sri Lanka"
+      },
+      "gw_code": null,
+      "iso_a3": "LKA",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "LTU",
+      "type": "state",
+      "names": {
+        "ru": "Литва",
+        "en": "Lithuania"
+      },
+      "gw_code": null,
+      "iso_a3": "LTU",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "LVA",
+      "type": "state",
+      "names": {
+        "ru": "Латвия",
+        "en": "Latvia"
+      },
+      "gw_code": null,
+      "iso_a3": "LVA",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "MAR",
+      "type": "state",
+      "names": {
+        "ru": "Марокко",
+        "en": "Morocco"
+      },
+      "gw_code": null,
+      "iso_a3": "MAR",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "MDA",
+      "type": "state",
+      "names": {
+        "ru": "Молдова",
+        "en": "Moldova"
+      },
+      "gw_code": null,
+      "iso_a3": "MDA",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "MDG",
+      "type": "state",
+      "names": {
+        "ru": "Мадагаскар",
+        "en": "Madagascar"
+      },
+      "gw_code": null,
+      "iso_a3": "MDG",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "MEX",
+      "type": "state",
+      "names": {
+        "ru": "Мексика",
+        "en": "Mexico"
+      },
+      "gw_code": null,
+      "iso_a3": "MEX",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "MHL",
+      "type": "state",
+      "names": {
+        "ru": "Маршалловы Острова",
+        "en": "Marshall Islands"
+      },
+      "gw_code": null,
+      "iso_a3": "MHL",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "MLI",
+      "type": "state",
+      "names": {
+        "ru": "Мали",
+        "en": "Mali"
+      },
+      "gw_code": null,
+      "iso_a3": "MLI",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "MMR",
+      "type": "state",
+      "names": {
+        "ru": "Мьянма",
+        "en": "Myanmar"
+      },
+      "gw_code": null,
+      "iso_a3": "MMR",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "MNE",
+      "type": "state",
+      "names": {
+        "ru": "Черногория",
+        "en": "Montenegro"
+      },
+      "gw_code": null,
+      "iso_a3": "MNE",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "MNG",
+      "type": "state",
+      "names": {
+        "ru": "Монголия",
+        "en": "Mongolia"
+      },
+      "gw_code": null,
+      "iso_a3": "MNG",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "MRT",
+      "type": "state",
+      "names": {
+        "ru": "Мавритания",
+        "en": "Mauritania"
+      },
+      "gw_code": null,
+      "iso_a3": "MRT",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "MUS",
+      "type": "state",
+      "names": {
+        "ru": "Маврикий",
+        "en": "Mauritius"
+      },
+      "gw_code": null,
+      "iso_a3": "MUS",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "MWI",
+      "type": "state",
+      "names": {
+        "ru": "Малави",
+        "en": "Malawi"
+      },
+      "gw_code": null,
+      "iso_a3": "MWI",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "MYS",
+      "type": "state",
+      "names": {
+        "ru": "Малайзия",
+        "en": "Malaysia"
+      },
+      "gw_code": null,
+      "iso_a3": "MYS",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "NAM",
+      "type": "state",
+      "names": {
+        "ru": "Намибия",
+        "en": "Namibia"
+      },
+      "gw_code": null,
+      "iso_a3": "NAM",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "NGA",
+      "type": "state",
+      "names": {
+        "ru": "Нигерия",
+        "en": "Nigeria"
+      },
+      "gw_code": null,
+      "iso_a3": "NGA",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "NIC",
+      "type": "state",
+      "names": {
+        "ru": "Никарагуа",
+        "en": "Nicaragua"
+      },
+      "gw_code": null,
+      "iso_a3": "NIC",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "NLD",
+      "type": "state",
+      "names": {
+        "ru": "Нидерланды",
+        "en": "Netherlands"
+      },
+      "gw_code": null,
+      "iso_a3": "NLD",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "NOR",
+      "type": "state",
+      "names": {
+        "ru": "Норвегия",
+        "en": "Norway"
+      },
+      "gw_code": null,
+      "iso_a3": "NOR",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "NPL",
+      "type": "state",
+      "names": {
+        "ru": "Непал",
+        "en": "Nepal"
+      },
+      "gw_code": null,
+      "iso_a3": "NPL",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "NZL",
+      "type": "state",
+      "names": {
+        "ru": "Новая Зеландия",
+        "en": "New Zealand"
+      },
+      "gw_code": null,
+      "iso_a3": "NZL",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "OMN",
+      "type": "state",
+      "names": {
+        "ru": "Оман",
+        "en": "Oman"
+      },
+      "gw_code": null,
+      "iso_a3": "OMN",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "PAK",
+      "type": "state",
+      "names": {
+        "ru": "Пакистан",
+        "en": "Pakistan"
+      },
+      "gw_code": null,
+      "iso_a3": "PAK",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "PAN",
+      "type": "state",
+      "names": {
+        "ru": "Панама",
+        "en": "Panama"
+      },
+      "gw_code": null,
+      "iso_a3": "PAN",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "PER",
+      "type": "state",
+      "names": {
+        "ru": "Перу",
+        "en": "Peru"
+      },
+      "gw_code": null,
+      "iso_a3": "PER",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "PHL",
+      "type": "state",
+      "names": {
+        "ru": "Филиппины",
+        "en": "Philippines"
+      },
+      "gw_code": null,
+      "iso_a3": "PHL",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "PNG",
+      "type": "state",
+      "names": {
+        "ru": "Папуа — Новая Гвинея",
+        "en": "Papua New Guinea"
+      },
+      "gw_code": null,
+      "iso_a3": "PNG",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "POL",
+      "type": "state",
+      "names": {
+        "ru": "Польша",
+        "en": "Poland"
+      },
+      "gw_code": null,
+      "iso_a3": "POL",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "PRK",
+      "type": "state",
+      "names": {
+        "ru": "КНДР",
+        "en": "DPRK"
+      },
+      "gw_code": null,
+      "iso_a3": "PRK",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "PRT",
+      "type": "state",
+      "names": {
+        "ru": "Португалия",
+        "en": "Portugal"
+      },
+      "gw_code": null,
+      "iso_a3": "PRT",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "PRY",
+      "type": "state",
+      "names": {
+        "ru": "Парагвай",
+        "en": "Paraguay"
+      },
+      "gw_code": null,
+      "iso_a3": "PRY",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "PSE",
+      "type": "partially_recognized_state",
+      "names": {
+        "ru": "Государство Палестина / ООП",
+        "en": "State of Palestine / PLO"
+      },
+      "gw_code": null,
+      "iso_a3": "PSE",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "QAT",
+      "type": "state",
+      "names": {
+        "ru": "Катар",
+        "en": "Qatar"
+      },
+      "gw_code": null,
+      "iso_a3": "QAT",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "ROU",
+      "type": "state",
+      "names": {
+        "ru": "Румыния",
+        "en": "Romania"
+      },
+      "gw_code": null,
+      "iso_a3": "ROU",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "RUS",
+      "type": "state",
+      "names": {
+        "ru": "Россия",
+        "en": "Russia"
+      },
+      "gw_code": null,
+      "iso_a3": "RUS",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "SAU",
+      "type": "state",
+      "names": {
+        "ru": "Саудовская Аравия",
+        "en": "Saudi Arabia"
+      },
+      "gw_code": null,
+      "iso_a3": "SAU",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "SDN",
+      "type": "state",
+      "names": {
+        "ru": "Судан",
+        "en": "Sudan"
+      },
+      "gw_code": null,
+      "iso_a3": "SDN",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "SGP",
+      "type": "state",
+      "names": {
+        "ru": "Сингапур",
+        "en": "Singapore"
+      },
+      "gw_code": null,
+      "iso_a3": "SGP",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "SLV",
+      "type": "state",
+      "names": {
+        "ru": "Сальвадор",
+        "en": "El Salvador"
+      },
+      "gw_code": null,
+      "iso_a3": "SLV",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "SOM",
+      "type": "state",
+      "names": {
+        "ru": "Сомали",
+        "en": "Somalia"
+      },
+      "gw_code": null,
+      "iso_a3": "SOM",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "SRB",
+      "type": "state",
+      "names": {
+        "ru": "Сербия",
+        "en": "Serbia"
+      },
+      "gw_code": null,
+      "iso_a3": "SRB",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "SSD",
+      "type": "state",
+      "names": {
+        "ru": "Южный Судан",
+        "en": "South Sudan"
+      },
+      "gw_code": null,
+      "iso_a3": "SSD",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "SUN",
+      "type": "state",
+      "names": {
+        "ru": "СССР",
+        "en": "USSR"
+      },
+      "gw_code": null,
+      "iso_a3": "SUN",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "SUR",
+      "type": "state",
+      "names": {
+        "ru": "Суринам",
+        "en": "Suriname"
+      },
+      "gw_code": null,
+      "iso_a3": "SUR",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "SVN",
+      "type": "state",
+      "names": {
+        "ru": "Словения",
+        "en": "Slovenia"
+      },
+      "gw_code": null,
+      "iso_a3": "SVN",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "SWE",
+      "type": "state",
+      "names": {
+        "ru": "Швеция",
+        "en": "Sweden"
+      },
+      "gw_code": null,
+      "iso_a3": "SWE",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "SYR",
+      "type": "state",
+      "names": {
+        "ru": "Сирия",
+        "en": "Syria"
+      },
+      "gw_code": null,
+      "iso_a3": "SYR",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "TCD",
+      "type": "state",
+      "names": {
+        "ru": "Чад",
+        "en": "Chad"
+      },
+      "gw_code": null,
+      "iso_a3": "TCD",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "THA",
+      "type": "state",
+      "names": {
+        "ru": "Таиланд",
+        "en": "Thailand"
+      },
+      "gw_code": null,
+      "iso_a3": "THA",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "TJK",
+      "type": "state",
+      "names": {
+        "ru": "Таджикистан",
+        "en": "Tajikistan"
+      },
+      "gw_code": null,
+      "iso_a3": "TJK",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "TKM",
+      "type": "state",
+      "names": {
+        "ru": "Туркменистан",
+        "en": "Turkmenistan"
+      },
+      "gw_code": null,
+      "iso_a3": "TKM",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "TLS",
+      "type": "state",
+      "names": {
+        "ru": "Тимор-Лесте",
+        "en": "Timor-Leste"
+      },
+      "gw_code": null,
+      "iso_a3": "TLS",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "TON",
+      "type": "state",
+      "names": {
+        "ru": "Тонга",
+        "en": "Tonga"
+      },
+      "gw_code": null,
+      "iso_a3": "TON",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "TUR",
+      "type": "state",
+      "names": {
+        "ru": "Турция",
+        "en": "Türkiye"
+      },
+      "gw_code": null,
+      "iso_a3": "TUR",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "TWN",
+      "type": "partially_recognized_state",
+      "names": {
+        "ru": "Китайская Республика (Тайвань), с 1949",
+        "en": "Republic of China (Taiwan), since 1949"
+      },
+      "gw_code": null,
+      "iso_a3": "TWN",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "TZA",
+      "type": "state",
+      "names": {
+        "ru": "Танзания",
+        "en": "Tanzania"
+      },
+      "gw_code": null,
+      "iso_a3": "TZA",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "UGA",
+      "type": "state",
+      "names": {
+        "ru": "Уганда",
+        "en": "Uganda"
+      },
+      "gw_code": null,
+      "iso_a3": "UGA",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "UKR",
+      "type": "state",
+      "names": {
+        "ru": "Украина",
+        "en": "Ukraine"
+      },
+      "gw_code": null,
+      "iso_a3": "UKR",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "UN",
+      "type": "international_organization",
+      "names": {
+        "ru": "ООН",
+        "en": "United Nations"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "USA",
+      "type": "state",
+      "names": {
+        "ru": "США",
+        "en": "United States"
+      },
+      "gw_code": null,
+      "iso_a3": "USA",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "UZB",
+      "type": "state",
+      "names": {
+        "ru": "Узбекистан",
+        "en": "Uzbekistan"
+      },
+      "gw_code": null,
+      "iso_a3": "UZB",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "VEN",
+      "type": "state",
+      "names": {
+        "ru": "Венесуэла",
+        "en": "Venezuela"
+      },
+      "gw_code": null,
+      "iso_a3": "VEN",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "VNM",
+      "type": "state",
+      "names": {
+        "ru": "Вьетнам",
+        "en": "Viet Nam"
+      },
+      "gw_code": null,
+      "iso_a3": "VNM",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "VUT",
+      "type": "state",
+      "names": {
+        "ru": "Вануату",
+        "en": "Vanuatu"
+      },
+      "gw_code": null,
+      "iso_a3": "VUT",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-ABK",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "Республика Абхазия (власти де-факто)",
+        "en": "Republic of Abkhazia (de facto authorities)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-AMG",
+      "type": "international_regime",
+      "names": {
+        "ru": "Союзная военная администрация (Великобритания, США)",
+        "en": "Allied Military Government (UK, US)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-AZAWAD",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "Азавад (НДОА, 2012–2013)",
+        "en": "Azawad (MNLA, 2012–2013)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-BIAFRA",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "Республика Биафра (1967–1970)",
+        "en": "Republic of Biafra (1967–1970)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-BOUGAINVILLE",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "Бугенвиль (сепаратистские власти)",
+        "en": "Bougainville (secessionist authorities)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-BRITISH-INDIA",
+      "type": "colonial_unit",
+      "names": {
+        "ru": "Британская Индия",
+        "en": "British India"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-DANZIG",
+      "type": "international_regime",
+      "names": {
+        "ru": "Вольный город Данциг",
+        "en": "Free City of Danzig"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-DPR",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "Донецкая Народная Республика (власти де-факто, 2014–2022)",
+        "en": "Donetsk People's Republic (de facto authorities, 2014–2022)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-ICHKERIA",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "Чеченская Республика Ичкерия (1991–2000)",
+        "en": "Chechen Republic of Ichkeria (1991–2000)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-KATANGA",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "Государство Катанга (1960–1963)",
+        "en": "State of Katanga (1960–1963)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-LPR",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "Луганская Народная Республика (власти де-факто, 2014–2022)",
+        "en": "Luhansk People's Republic (de facto authorities, 2014–2022)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-LTTE",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "ТОТИ (Тигры освобождения Тамил-Илама)",
+        "en": "LTTE (Liberation Tigers of Tamil Eelam)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-NKR",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "Нагорно-Карабахская Республика / Республика Арцах (власти де-факто, 1991–2023)",
+        "en": "Nagorno-Karabakh Republic / Republic of Artsakh (de facto authorities, 1991–2023)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-PMR",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "Приднестровская Молдавская Республика (власти де-факто)",
+        "en": "Pridnestrovian Moldavian Republic (de facto authorities)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-RSK",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "Республика Сербская Краина (1991–1995)",
+        "en": "Republic of Serbian Krajina (1991–1995)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-SADR",
+      "type": "partially_recognized_state",
+      "names": {
+        "ru": "САДР / Фронт ПОЛИСАРИО",
+        "en": "SADR / Polisario Front"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-SOMALILAND",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "Республика Сомалиленд (власти де-факто)",
+        "en": "Republic of Somaliland (de facto authorities)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-SOS",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "Республика Южная Осетия (власти де-факто)",
+        "en": "Republic of South Ossetia (de facto authorities)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-TIBET",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "Тибет (правительство в Лхасе, 1912–1951)",
+        "en": "Tibet (Lhasa government, 1912–1951)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-TRNC",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "Турецкая Республика Северного Кипра (власти де-факто; признана только Турцией)",
+        "en": "Turkish Republic of Northern Cyprus (de facto authorities; recognised only by Türkiye)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "XKX",
+      "type": "partially_recognized_state",
+      "names": {
+        "ru": "Косово",
+        "en": "Kosovo"
+      },
+      "gw_code": null,
+      "iso_a3": "XKX",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "YEM",
+      "type": "state",
+      "names": {
+        "ru": "Йемен",
+        "en": "Yemen"
+      },
+      "gw_code": null,
+      "iso_a3": "YEM",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "YUG",
+      "type": "state",
+      "names": {
+        "ru": "Югославия (Королевство СХС/Югославия, СФРЮ, СРЮ)",
+        "en": "Yugoslavia (Kingdom SCS/Yugoslavia, SFRY, FRY)"
+      },
+      "gw_code": null,
+      "iso_a3": "YUG",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "ZAF",
+      "type": "state",
+      "names": {
+        "ru": "ЮАР",
+        "en": "South Africa"
+      },
+      "gw_code": null,
+      "iso_a3": "ZAF",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-HAMAS",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "ХАМАС (власти де-факто в Секторе Газа)",
+        "en": "Hamas (de facto authorities in the Gaza Strip)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": "2007-06",
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "BIH",
+      "type": "state",
+      "names": {
+        "ru": "Босния и Герцеговина",
+        "en": "Bosnia and Herzegovina"
+      },
+      "gw_code": null,
+      "iso_a3": "BIH",
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-RS",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "Сербская Республика Боснии и Герцеговины / Республика Сербская (власти де-факто, 1992–1995)",
+        "en": "Serbian Republic of Bosnia and Herzegovina / Republika Srpska (de facto authorities, 1992–1995)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-HZHB",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "Хорватское сообщество / Хорватская Республика Герцег-Босна (1991–1994)",
+        "en": "Croatian Community / Croatian Republic of Herzeg-Bosnia (1991–1994)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-IAC",
+      "type": "international_regime",
+      "names": {
+        "ru": "Межсоюзническая комиссия в Верхней Силезии (1920–1922)",
+        "en": "Inter-Allied Commission in Upper Silesia (1920–1922)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": null,
+        "to": null
+      },
+      "needs_human_review": true
+    },
+    {
+      "code": "X-CLIT",
+      "type": "de_facto_authority",
+      "names": {
+        "ru": "Срединная Литва (Центральная Литва, 1920–1922)",
+        "en": "Central Lithuania (1920–1922)"
+      },
+      "gw_code": null,
+      "iso_a3": null,
+      "valid": {
+        "from": "1920-10",
+        "to": "1922-03"
+      },
+      "needs_human_review": true
+    }
+  ]
+}
